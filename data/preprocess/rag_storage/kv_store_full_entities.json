@@ -1,0 +1,52 @@
+{
+  "doc-f4e8801894f80bd4bee30c75369a2db6": {
+    "entity_names": [
+      "Tập VI",
+      "Nhi Khoa"
+    ],
+    "count": 2,
+    "create_time": 1770447662,
+    "update_time": 1770447662,
+    "_id": "doc-f4e8801894f80bd4bee30c75369a2db6"
+  },
+  "doc-d8eed2d250cad477e48fd32a65293c8c": {
+    "entity_names": [
+      "Đại Học Y Dược Thành Phố Hồ Chí Minh",
+      "Bộ Môn Nhi",
+      "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+      "Nhi Khoa Tập VI",
+      "2025",
+      "Phùng Nguyễn Thế Nguyên"
+    ],
+    "count": 6,
+    "create_time": 1770447685,
+    "update_time": 1770447685,
+    "_id": "doc-d8eed2d250cad477e48fd32a65293c8c"
+  },
+  "doc-703f3e7c27b77a2d6a19aac3cafab0fa": {
+    "entity_names": [
+      "Viên Khuyên",
+      "19.5 x 26 cm",
+      "Phường An Hội Tây, TP. HCM",
+      "TP Thủ Đức, TP. HCM",
+      "Nhi Khoa - Tập VI",
+      "Luật Xuất Bản Việt Nam",
+      "Luật Sở Hữu Trí Tuệ Việt Nam",
+      "Phùng Nguyễn Thế Nguyên",
+      "2025",
+      "ISBN: 978-632-608-162-6",
+      "Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh",
+      "Công Ty TNHH Cơ Khí In Ấn Pháp",
+      "Nguyễn Minh Tâm",
+      "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+      "Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+      "2000 Cuốn",
+      "Nguyễn Thị Ngọc Anh",
+      "Giang Hương"
+    ],
+    "count": 18,
+    "create_time": 1770448524,
+    "update_time": 1770448524,
+    "_id": "doc-703f3e7c27b77a2d6a19aac3cafab0fa"
+  }
+}

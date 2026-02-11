@@ -1,0 +1,439 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd"><key id="d13" for="edge" attr.name="truncate" attr.type="string"/>
+<key id="d12" for="edge" attr.name="created_at" attr.type="long"/>
+<key id="d11" for="edge" attr.name="file_path" attr.type="string"/>
+<key id="d10" for="edge" attr.name="source_id" attr.type="string"/>
+<key id="d9" for="edge" attr.name="keywords" attr.type="string"/>
+<key id="d8" for="edge" attr.name="description" attr.type="string"/>
+<key id="d7" for="edge" attr.name="weight" attr.type="double"/>
+<key id="d6" for="node" attr.name="truncate" attr.type="string"/>
+<key id="d5" for="node" attr.name="created_at" attr.type="long"/>
+<key id="d4" for="node" attr.name="file_path" attr.type="string"/>
+<key id="d3" for="node" attr.name="source_id" attr.type="string"/>
+<key id="d2" for="node" attr.name="description" attr.type="string"/>
+<key id="d1" for="node" attr.name="entity_type" attr.type="string"/>
+<key id="d0" for="node" attr.name="entity_id" attr.type="string"/>
+<graph edgedefault="undirected"><node id="Nhi Khoa">
+  <data key="d0">Nhi Khoa</data>
+  <data key="d1">concept</data>
+  <data key="d2">Nhi Khoa is a field of study or content, likely referring to pediatrics.</data>
+  <data key="d3">chunk-f4e8801894f80bd4bee30c75369a2db6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770447661</data>
+  <data key="d6"></data>
+</node>
+<node id="Tập VI">
+  <data key="d0">Tập VI</data>
+  <data key="d1">content</data>
+  <data key="d2">Tập VI refers to Volume VI, a specific part of a larger work.</data>
+  <data key="d3">chunk-f4e8801894f80bd4bee30c75369a2db6</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770447661</data>
+  <data key="d6"></data>
+</node>
+<node id="Đại Học Y Dược Thành Phố Hồ Chí Minh">
+  <data key="d0">Đại Học Y Dược Thành Phố Hồ Chí Minh</data>
+  <data key="d1">organization</data>
+  <data key="d2">A university of medicine and pharmacy located in Ho Chi Minh City.</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770447683</data>
+  <data key="d6"></data>
+</node>
+<node id="Bộ Môn Nhi">
+  <data key="d0">Bộ Môn Nhi</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Department of Pediatrics within Đại Học Y Dược Thành Phố Hồ Chí Minh.</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770447683</data>
+  <data key="d6"></data>
+</node>
+<node id="Nhi Khoa Tập VI">
+  <data key="d0">Nhi Khoa Tập VI</data>
+  <data key="d1">content</data>
+  <data key="d2">A publication titled "Pediatrics Volume VI".</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770447683</data>
+  <data key="d6"></data>
+</node>
+<node id="Phùng Nguyễn Thế Nguyên">
+  <data key="d0">Phùng Nguyễn Thế Nguyên</data>
+  <data key="d1">person</data>
+  <data key="d2">The editor-in-chief of "Nhi Khoa Tập VI", holding titles of PGS.TS.BS.&lt;SEP&gt;Phùng Nguyễn Thế Nguyên is the Editor-in-Chief of the book "Nhi Khoa - Tập VI" and is affiliated with the Department of Pediatrics.</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c&lt;SEP&gt;chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh">
+  <data key="d0">Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh</data>
+  <data key="d1">organization</data>
+  <data key="d2">A publishing house associated with Ho Chi Minh City National University.&lt;SEP&gt;Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh is the publishing house for "Nhi Khoa - Tập VI", located in TP Thủ Đức, TP. HCM.</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c&lt;SEP&gt;chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="2025">
+  <data key="d0">2025</data>
+  <data key="d1">data</data>
+  <data key="d2">The year of publication for "Nhi Khoa Tập VI".&lt;SEP&gt;2025 is the year of the publication date and legal deposit of the book.</data>
+  <data key="d3">chunk-d8eed2d250cad477e48fd32a65293c8c&lt;SEP&gt;chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Nhi Khoa - Tập VI">
+  <data key="d0">Nhi Khoa - Tập VI</data>
+  <data key="d1">content</data>
+  <data key="d2">Nhi Khoa - Tập VI is a book, identified as Volume VI of "Pediatrics".</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh">
+  <data key="d0">Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh</data>
+  <data key="d1">organization</data>
+  <data key="d2">The Department of Pediatrics at Ho Chi Minh City University of Medicine and Pharmacy is affiliated with Phùng Nguyễn Thế Nguyên and is a partner in the publication.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="TP Thủ Đức, TP. HCM">
+  <data key="d0">TP Thủ Đức, TP. HCM</data>
+  <data key="d1">location</data>
+  <data key="d2">TP Thủ Đức, TP. HCM is the location of Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Đại Học Quốc Gia Thành Phố Hồ Chí Minh">
+  <data key="d0">Đại Học Quốc Gia Thành Phố Hồ Chí Minh</data>
+  <data key="d1">organization</data>
+  <data key="d2">Đại Học Quốc Gia Thành Phố Hồ Chí Minh is associated with the publishing house, whose office is located within the university's operating building.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Nguyễn Minh Tâm">
+  <data key="d0">Nguyễn Minh Tâm</data>
+  <data key="d1">person</data>
+  <data key="d2">Nguyễn Minh Tâm is responsible for the publishing and content aspects of the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Nguyễn Thị Ngọc Anh">
+  <data key="d0">Nguyễn Thị Ngọc Anh</data>
+  <data key="d1">person</data>
+  <data key="d2">Nguyễn Thị Ngọc Anh is the editor of the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448517</data>
+  <data key="d6"></data>
+</node>
+<node id="Viên Khuyên">
+  <data key="d0">Viên Khuyên</data>
+  <data key="d1">person</data>
+  <data key="d2">Viên Khuyên is the proofreader for the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Giang Hương">
+  <data key="d0">Giang Hương</data>
+  <data key="d1">person</data>
+  <data key="d2">Giang Hương is the cover designer for the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Công Ty TNHH Cơ Khí In Ấn Pháp">
+  <data key="d0">Công Ty TNHH Cơ Khí In Ấn Pháp</data>
+  <data key="d1">organization</data>
+  <data key="d2">Công Ty TNHH Cơ Khí In Ấn Pháp is the company responsible for printing the book, located in Phường An Hội Tây, TP. HCM.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Phường An Hội Tây, TP. HCM">
+  <data key="d0">Phường An Hội Tây, TP. HCM</data>
+  <data key="d1">location</data>
+  <data key="d2">Phường An Hội Tây, TP. HCM is the address of Công Ty TNHH Cơ Khí In Ấn Pháp.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Luật Xuất Bản Việt Nam">
+  <data key="d0">Luật Xuất Bản Việt Nam</data>
+  <data key="d1">concept</data>
+  <data key="d2">Luật Xuất Bản Việt Nam is one of the laws protecting the copyright of the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="Luật Sở Hữu Trí Tuệ Việt Nam">
+  <data key="d0">Luật Sở Hữu Trí Tuệ Việt Nam</data>
+  <data key="d1">concept</data>
+  <data key="d2">Luật Sở Hữu Trí Tuệ Việt Nam is one of the laws protecting the copyright of the book.</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="ISBN: 978-632-608-162-6">
+  <data key="d0">ISBN: 978-632-608-162-6</data>
+  <data key="d1">data</data>
+  <data key="d2">ISBN: 978-632-608-162-6 is the International Standard Book Number for the book "Nhi Khoa - Tập VI".</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="2000 Cuốn">
+  <data key="d0">2000 Cuốn</data>
+  <data key="d1">data</data>
+  <data key="d2">2000 Cuốn refers to the total number of copies printed for the book "Nhi Khoa - Tập VI".</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<node id="19.5 x 26 cm">
+  <data key="d0">19.5 x 26 cm</data>
+  <data key="d1">data</data>
+  <data key="d2">19.5 x 26 cm describes the physical dimensions or format size of the book "Nhi Khoa - Tập VI".</data>
+  <data key="d3">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d4">unknown_source</data>
+  <data key="d5">1770448518</data>
+  <data key="d6"></data>
+</node>
+<edge source="Nhi Khoa" target="Tập VI">
+  <data key="d7">1.0</data>
+  <data key="d8">Tập VI is a volume associated with the subject or content titled Nhi Khoa.</data>
+  <data key="d9">part of,volume</data>
+  <data key="d10">chunk-f4e8801894f80bd4bee30c75369a2db6</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447662</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Đại Học Y Dược Thành Phố Hồ Chí Minh" target="Bộ Môn Nhi">
+  <data key="d7">1.0</data>
+  <data key="d8">Đại Học Y Dược Thành Phố Hồ Chí Minh includes the Bộ Môn Nhi.</data>
+  <data key="d9">contains,organizational structure</data>
+  <data key="d10">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447684</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Bộ Môn Nhi" target="Nhi Khoa Tập VI">
+  <data key="d7">1.0</data>
+  <data key="d8">The publication Nhi Khoa Tập VI is associated with the Bộ Môn Nhi.</data>
+  <data key="d9">associated with,produced by</data>
+  <data key="d10">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447685</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa Tập VI" target="Phùng Nguyễn Thế Nguyên">
+  <data key="d7">1.0</data>
+  <data key="d8">Phùng Nguyễn Thế Nguyên is the editor-in-chief of Nhi Khoa Tập VI.</data>
+  <data key="d9">authorship,editor of</data>
+  <data key="d10">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447684</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa Tập VI" target="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh is the publisher of Nhi Khoa Tập VI.</data>
+  <data key="d9">publication,publisher of</data>
+  <data key="d10">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447684</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa Tập VI" target="2025">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa Tập VI was published in the year 2025.</data>
+  <data key="d9">publication year,published in</data>
+  <data key="d10">chunk-d8eed2d250cad477e48fd32a65293c8c</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770447685</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Phùng Nguyễn Thế Nguyên" target="Nhi Khoa - Tập VI">
+  <data key="d7">1.0</data>
+  <data key="d8">Phùng Nguyễn Thế Nguyên is the Editor-in-Chief of Nhi Khoa - Tập VI.</data>
+  <data key="d9">authorship,editorial</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Phùng Nguyễn Thế Nguyên" target="Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh">
+  <data key="d7">1.0</data>
+  <data key="d8">Phùng Nguyễn Thế Nguyên is associated with the Department of Pediatrics at Ho Chi Minh City University of Medicine and Pharmacy.</data>
+  <data key="d9">affiliation</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh" target="TP Thủ Đức, TP. HCM">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh is located in TP Thủ Đức, TP. HCM.</data>
+  <data key="d9">location</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh" target="Đại Học Quốc Gia Thành Phố Hồ Chí Minh">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh is located within the operating building of Đại Học Quốc Gia Thành Phố Hồ Chí Minh.</data>
+  <data key="d9">affiliation,organizational structure</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448519</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh" target="Nguyễn Minh Tâm">
+  <data key="d7">1.0</data>
+  <data key="d8">Nguyễn Minh Tâm is responsible for publishing and content for Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh.</data>
+  <data key="d9">management,responsibility</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448520</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh" target="Nhi Khoa - Tập VI">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI is published by Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh.</data>
+  <data key="d9">publication</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448520</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh" target="Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh">
+  <data key="d7">1.0</data>
+  <data key="d8">Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh is a partner of Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh.</data>
+  <data key="d9">collaboration,partnership</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448521</data>
+  <data key="d13"></data>
+</edge>
+<edge source="2025" target="Nhi Khoa - Tập VI">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI was published in 2025.</data>
+  <data key="d9">publication date</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448522</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Nguyễn Thị Ngọc Anh">
+  <data key="d7">1.0</data>
+  <data key="d8">Nguyễn Thị Ngọc Anh is the editor of Nhi Khoa - Tập VI.</data>
+  <data key="d9">editorial</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448520</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Viên Khuyên">
+  <data key="d7">1.0</data>
+  <data key="d8">Viên Khuyên is the proofreader for Nhi Khoa - Tập VI.</data>
+  <data key="d9">editorial</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448521</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Giang Hương">
+  <data key="d7">1.0</data>
+  <data key="d8">Giang Hương is the cover designer for Nhi Khoa - Tập VI.</data>
+  <data key="d9">design</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448521</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Công Ty TNHH Cơ Khí In Ấn Pháp">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI is printed by Công Ty TNHH Cơ Khí In Ấn Pháp.</data>
+  <data key="d9">printing,production</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448521</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Luật Xuất Bản Việt Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">The copyright of Nhi Khoa - Tập VI is protected by Luật Xuất Bản Việt Nam.</data>
+  <data key="d9">copyright,legal protection</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448522</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="Luật Sở Hữu Trí Tuệ Việt Nam">
+  <data key="d7">1.0</data>
+  <data key="d8">The copyright of Nhi Khoa - Tập VI is protected by Luật Sở Hữu Trí Tuệ Việt Nam.</data>
+  <data key="d9">copyright,legal protection</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448522</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="ISBN: 978-632-608-162-6">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI has the ISBN 978-632-608-162-6.</data>
+  <data key="d9">identification</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448523</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="2000 Cuốn">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI has a printed quantity of 2000 copies.</data>
+  <data key="d9">production,quantity</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448523</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Nhi Khoa - Tập VI" target="19.5 x 26 cm">
+  <data key="d7">1.0</data>
+  <data key="d8">Nhi Khoa - Tập VI has a physical format size of 19.5 x 26 cm.</data>
+  <data key="d9">format,physical attribute</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448524</data>
+  <data key="d13"></data>
+</edge>
+<edge source="Công Ty TNHH Cơ Khí In Ấn Pháp" target="Phường An Hội Tây, TP. HCM">
+  <data key="d7">1.0</data>
+  <data key="d8">Công Ty TNHH Cơ Khí In Ấn Pháp is located in Phường An Hội Tây, TP. HCM.</data>
+  <data key="d9">location</data>
+  <data key="d10">chunk-703f3e7c27b77a2d6a19aac3cafab0fa</data>
+  <data key="d11">unknown_source</data>
+  <data key="d12">1770448522</data>
+  <data key="d13"></data>
+</edge>
+</graph></graphml>

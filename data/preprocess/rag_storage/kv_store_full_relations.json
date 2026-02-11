@@ -1,0 +1,122 @@
+{
+  "doc-f4e8801894f80bd4bee30c75369a2db6": {
+    "relation_pairs": [
+      [
+        "Nhi Khoa",
+        "Tập VI"
+      ]
+    ],
+    "count": 1,
+    "create_time": 1770447662,
+    "update_time": 1770447662,
+    "_id": "doc-f4e8801894f80bd4bee30c75369a2db6"
+  },
+  "doc-d8eed2d250cad477e48fd32a65293c8c": {
+    "relation_pairs": [
+      [
+        "Nhi Khoa Tập VI",
+        "Phùng Nguyễn Thế Nguyên"
+      ],
+      [
+        "2025",
+        "Nhi Khoa Tập VI"
+      ],
+      [
+        "Bộ Môn Nhi",
+        "Nhi Khoa Tập VI"
+      ],
+      [
+        "Bộ Môn Nhi",
+        "Đại Học Y Dược Thành Phố Hồ Chí Minh"
+      ],
+      [
+        "Nhi Khoa Tập VI",
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+      ]
+    ],
+    "count": 5,
+    "create_time": 1770447685,
+    "update_time": 1770447685,
+    "_id": "doc-d8eed2d250cad477e48fd32a65293c8c"
+  },
+  "doc-703f3e7c27b77a2d6a19aac3cafab0fa": {
+    "relation_pairs": [
+      [
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+        "TP Thủ Đức, TP. HCM"
+      ],
+      [
+        "19.5 x 26 cm",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Nguyễn Minh Tâm",
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+      ],
+      [
+        "Nguyễn Thị Ngọc Anh",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Nhi Khoa - Tập VI",
+        "Phùng Nguyễn Thế Nguyên"
+      ],
+      [
+        "Giang Hương",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "2025",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Nhi Khoa - Tập VI",
+        "Viên Khuyên"
+      ],
+      [
+        "Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh",
+        "Phùng Nguyễn Thế Nguyên"
+      ],
+      [
+        "Công Ty TNHH Cơ Khí In Ấn Pháp",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Luật Sở Hữu Trí Tuệ Việt Nam",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh",
+        "Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+      ],
+      [
+        "ISBN: 978-632-608-162-6",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh",
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+      ],
+      [
+        "Luật Xuất Bản Việt Nam",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Nhi Khoa - Tập VI",
+        "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+      ],
+      [
+        "2000 Cuốn",
+        "Nhi Khoa - Tập VI"
+      ],
+      [
+        "Công Ty TNHH Cơ Khí In Ấn Pháp",
+        "Phường An Hội Tây, TP. HCM"
+      ]
+    ],
+    "count": 18,
+    "create_time": 1770448524,
+    "update_time": 1770448524,
+    "_id": "doc-703f3e7c27b77a2d6a19aac3cafab0fa"
+  }
+}

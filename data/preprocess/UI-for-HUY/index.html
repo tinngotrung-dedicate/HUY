@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MedGPT Clinic UI</title>
+    <script type="text/javascript" src="/eel.js"></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="logo">M+</div>
+          <div>
+            <p class="brand-name">MedGPT Clinic</p>
+            <p class="brand-tag">Medical Q&A</p>
+          </div>
+        </div>
+
+        <button class="primary" id="newChat">New chat</button>
+
+        <div class="search">
+          <input type="search" id="searchHistory" placeholder="Search chats" />
+        </div>
+
+        <div class="sidebar-section">
+          <p class="section-title">Pinned</p>
+          <ul class="chat-list" id="pinnedList"></ul>
+        </div>
+
+        <div class="sidebar-section">
+          <p class="section-title">History</p>
+          <ul class="chat-list" id="historyList"></ul>
+        </div>
+
+        <div class="sidebar-footer">
+          <button class="ghost">Settings</button>
+          <button class="ghost">Account</button>
+        </div>
+      </aside>
+
+      <main class="main">
+        <header class="topbar">
+          <div class="model-select">
+            <label for="model">Model</label>
+            <select id="model">
+              <option>MedGPT-4o</option>
+              <option>MedGPT-3.5</option>
+              <option>Diagnostic Lite</option>
+            </select>
+          </div>
+          <div class="tool-chips">
+            <button class="chip active">Insights</button>
+            <button class="chip">Drug check</button>
+            <button class="chip">Lab analyzer</button>
+            <button class="chip">Evidence mode</button>
+          </div>
+          <div class="top-actions">
+            <button class="ghost" id="shareChat">Share</button>
+            <button class="ghost" id="exportChat">Export</button>
+          </div>
+        </header>
+
+        <section class="system-banner">
+          <div>
+            <p class="banner-title">Lưu ý y tế</p>
+            <p>
+              Đây là hệ thống hỗ trợ tham khảo. Không thay thế chẩn đoán hoặc chỉ định từ bác sĩ.
+            </p>
+          </div>
+          <button class="ghost">Read policy</button>
+        </section>
+
+        <section class="thread" id="thread">
+          <article class="msg bot">
+            <div class="avatar">🩺</div>
+            <div class="bubble">
+              <p>Xin chào! Bạn có thể mô tả triệu chứng hoặc câu hỏi y tế.</p>
+              <p>Tôi sẽ gợi ý bước tiếp theo và mức độ khẩn cấp.</p>
+            </div>
+          </article>
+
+          <article class="msg user">
+            <div class="bubble">
+              <p>Mình bị đau họng 3 ngày, sốt nhẹ, nên làm gì?</p>
+            </div>
+          </article>
+
+          <article class="msg bot">
+            <div class="avatar">🩺</div>
+            <div class="bubble">
+              <p>Có thể là viêm họng nhẹ. Bạn nên nghỉ ngơi, uống đủ nước và theo dõi sốt.</p>
+              <ul>
+                <li>Nếu sốt &gt; 38.5°C kéo dài &gt; 48h, nên khám.</li>
+                <li>Nếu khó thở hoặc đau ngực, cần đi cấp cứu.</li>
+              </ul>
+            </div>
+          </article>
+        </section>
+
+        <section class="suggestions">
+          <button class="chip suggestion">Đánh giá mức độ nguy hiểm</button>
+          <button class="chip suggestion">Tư vấn thuốc không kê đơn</button>
+          <button class="chip suggestion">Phân biệt cảm cúm và COVID</button>
+          <button class="chip suggestion">Chế độ ăn khi đau dạ dày</button>
+        </section>
+
+        <form class="composer" id="composer">
+          <div class="attachments" id="attachments"></div>
+          <div class="input-wrap">
+            <textarea
+              id="prompt"
+              rows="1"
+              placeholder="Nhập câu hỏi y tế..."
+            ></textarea>
+            <div class="actions">
+              <input type="file" id="fileInput" hidden multiple />
+              <button type="button" class="ghost" id="uploadBtn">Upload</button>
+              <button type="button" class="ghost" id="voiceBtn">Voice</button>
+              <button type="button" class="ghost" id="regenerateBtn">Regenerate</button>
+              <button type="button" class="ghost" id="stopBtn" disabled>Stop</button>
+              <button type="submit" class="primary" id="sendBtn">Send</button>
+            </div>
+          </div>
+          <div class="composer-footer">
+            <span>Shift + Enter để xuống dòng</span>
+            <span class="status" id="status">Ready</span>
+          </div>
+        </form>
+      </main>
+
+      <aside class="insights">
+        <h3>Clinical Snapshot</h3>
+        <div class="card">
+          <p class="card-title">Risk triage</p>
+          <p>Mức độ: <strong>Thấp</strong></p>
+          <p>Khuyến nghị: Theo dõi 24–48h</p>
+        </div>
+        <div class="card">
+          <p class="card-title">Vitals checklist</p>
+          <ul>
+            <li>Nhiệt độ</li>
+            <li>Nhịp thở</li>
+            <li>Ho khan</li>
+            <li>Đau họng</li>
+          </ul>
+        </div>
+        <div class="card">
+          <p class="card-title">Sources</p>
+          <p>WHO, CDC, Bộ Y tế (mock)</p>
+        </div>
+      </aside>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

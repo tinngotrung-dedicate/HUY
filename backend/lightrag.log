@@ -1,0 +1,1388 @@
+2026-02-06 11:10:02,427 - lightrag - INFO - Creating working directory ./rag_storage
+2026-02-06 11:10:16,055 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:10:16,055 - lightrag - INFO - [] Process 99035 KV load full_docs with 0 records
+2026-02-06 11:10:16,055 - lightrag - INFO - [] Process 99035 KV load text_chunks with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 KV load full_entities with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 KV load full_relations with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 KV load entity_chunks with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 KV load relation_chunks with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 KV load llm_response_cache with 0 records
+2026-02-06 11:10:16,056 - lightrag - INFO - [] Process 99035 doc status load doc_status with 0 records
+2026-02-06 11:19:13,902 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load full_docs with 0 records
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load text_chunks with 0 records
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load full_entities with 0 records
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load full_relations with 0 records
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load entity_chunks with 0 records
+2026-02-06 11:19:13,903 - lightrag - INFO - [] Process 6009 KV load relation_chunks with 0 records
+2026-02-06 11:19:13,904 - lightrag - INFO - [] Process 6009 KV load llm_response_cache with 0 records
+2026-02-06 11:19:13,904 - lightrag - INFO - [] Process 6009 doc status load doc_status with 0 records
+2026-02-06 11:21:35,116 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:21:35,438 - lightrag - ERROR - LLM func: Error in decorated function for task 4513028656_155924.811672416: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:21:35,438 - lightrag - ERROR - Query failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:24:42,407 - lightrag - ERROR - LLM func: Error in decorated function for task 4532720224_156111.83787325: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:24:42,408 - lightrag - ERROR - Query failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:25:47,977 - lightrag - ERROR - LLM func: Error in decorated function for task 4533384848_156177.408291458: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:25:47,978 - lightrag - ERROR - Query failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-06 11:27:51,361 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:27:51,362 - lightrag - INFO - [] Process 11900 KV load full_docs with 0 records
+2026-02-06 11:27:51,362 - lightrag - INFO - [] Process 11900 KV load text_chunks with 0 records
+2026-02-06 11:27:51,362 - lightrag - INFO - [] Process 11900 KV load full_entities with 0 records
+2026-02-06 11:27:51,362 - lightrag - INFO - [] Process 11900 KV load full_relations with 0 records
+2026-02-06 11:27:51,362 - lightrag - INFO - [] Process 11900 KV load entity_chunks with 0 records
+2026-02-06 11:27:51,363 - lightrag - INFO - [] Process 11900 KV load relation_chunks with 0 records
+2026-02-06 11:27:51,363 - lightrag - INFO - [] Process 11900 KV load llm_response_cache with 0 records
+2026-02-06 11:27:51,363 - lightrag - INFO - [] Process 11900 doc status load doc_status with 0 records
+2026-02-06 11:31:20,785 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:31:27,549 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:45fa0f34e7ed5677467d50922892910a
+2026-02-06 11:31:27,549 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:31:27,661 - lightrag - ERROR - Embedding func: Error in decorated function for task 4476754480_156517.232681875: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:31:27,661 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:31:27,661 - lightrag - INFO - Query nodes: Cough, Remedies, Self-care (top_k:40, cosine:0.2)
+2026-02-06 11:31:27,771 - lightrag - ERROR - Embedding func: Error in decorated function for task 4476754480_156517.344572875: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:31:27,771 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:33:32,826 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:33:32,916 - lightrag - ERROR - Embedding func: Error in decorated function for task 4512722832_156642.507451: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:33:32,917 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:33:32,917 - lightrag - INFO - Query nodes: Cough, Remedies, Symptoms (top_k:40, cosine:0.2)
+2026-02-06 11:33:33,010 - lightrag - ERROR - Embedding func: Error in decorated function for task 4512722832_156642.598349083: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:33:33,010 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:36:17,645 - lightrag - ERROR - Embedding func: Error in decorated function for task 4634644272_156807.125562916: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:36:17,645 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:36:17,645 - lightrag - INFO - Query nodes: Cough, Remedies, Symptoms (top_k:40, cosine:0.2)
+2026-02-06 11:36:17,725 - lightrag - ERROR - Embedding func: Error in decorated function for task 4634644272_156807.325171416: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:36:17,725 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:37:39,523 - lightrag - ERROR - Embedding func: Error in decorated function for task 4512718352_156888.879055333: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:37:39,523 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:37:39,523 - lightrag - INFO - Query nodes: Cough, Remedies, Symptoms (top_k:40, cosine:0.2)
+2026-02-06 11:37:39,634 - lightrag - ERROR - Embedding func: Error in decorated function for task 4512718352_156889.201336208: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:37:39,634 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:38:10,495 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:38:10,495 - lightrag - INFO - [] Process 14727 KV load full_docs with 0 records
+2026-02-06 11:38:10,495 - lightrag - INFO - [] Process 14727 KV load text_chunks with 0 records
+2026-02-06 11:38:10,495 - lightrag - INFO - [] Process 14727 KV load full_entities with 0 records
+2026-02-06 11:38:10,495 - lightrag - INFO - [] Process 14727 KV load full_relations with 0 records
+2026-02-06 11:38:10,496 - lightrag - INFO - [] Process 14727 KV load entity_chunks with 0 records
+2026-02-06 11:38:10,496 - lightrag - INFO - [] Process 14727 KV load relation_chunks with 0 records
+2026-02-06 11:38:10,496 - lightrag - INFO - [] Process 14727 KV load llm_response_cache with 0 records
+2026-02-06 11:38:10,496 - lightrag - INFO - [] Process 14727 doc status load doc_status with 0 records
+2026-02-06 11:38:51,793 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:38:51,794 - lightrag - INFO - [] Process 15041 KV load full_docs with 0 records
+2026-02-06 11:38:51,794 - lightrag - INFO - [] Process 15041 KV load text_chunks with 0 records
+2026-02-06 11:38:51,794 - lightrag - INFO - [] Process 15041 KV load full_entities with 0 records
+2026-02-06 11:38:51,795 - lightrag - INFO - [] Process 15041 KV load full_relations with 0 records
+2026-02-06 11:38:51,795 - lightrag - INFO - [] Process 15041 KV load entity_chunks with 0 records
+2026-02-06 11:38:51,795 - lightrag - INFO - [] Process 15041 KV load relation_chunks with 0 records
+2026-02-06 11:38:51,795 - lightrag - INFO - [] Process 15041 KV load llm_response_cache with 0 records
+2026-02-06 11:38:51,795 - lightrag - INFO - [] Process 15041 doc status load doc_status with 0 records
+2026-02-06 11:39:04,095 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:39:16,046 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:39:16,047 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:39:16,137 - lightrag - ERROR - Embedding func: Error in decorated function for task 5073984048_156985.723992375: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:39:16,138 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:39:16,138 - lightrag - INFO - Query nodes: Home remedies, Medications, Self-care (top_k:40, cosine:0.2)
+2026-02-06 11:39:16,218 - lightrag - ERROR - Embedding func: Error in decorated function for task 5073984048_156985.814979875: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:39:16,219 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:39:37,134 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:39:37,134 - lightrag - INFO - [] Process 15197 KV load full_docs with 0 records
+2026-02-06 11:39:37,134 - lightrag - INFO - [] Process 15197 KV load text_chunks with 0 records
+2026-02-06 11:39:37,134 - lightrag - INFO - [] Process 15197 KV load full_entities with 0 records
+2026-02-06 11:39:37,135 - lightrag - INFO - [] Process 15197 KV load full_relations with 0 records
+2026-02-06 11:39:37,135 - lightrag - INFO - [] Process 15197 KV load entity_chunks with 0 records
+2026-02-06 11:39:37,135 - lightrag - INFO - [] Process 15197 KV load relation_chunks with 0 records
+2026-02-06 11:39:37,135 - lightrag - INFO - [] Process 15197 KV load llm_response_cache with 0 records
+2026-02-06 11:39:37,135 - lightrag - INFO - [] Process 15197 doc status load doc_status with 0 records
+2026-02-06 11:40:10,024 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:40:10,024 - lightrag - INFO - [] Process 15453 KV load full_docs with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load text_chunks with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load full_entities with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load full_relations with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load entity_chunks with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load relation_chunks with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 KV load llm_response_cache with 0 records
+2026-02-06 11:40:10,025 - lightrag - INFO - [] Process 15453 doc status load doc_status with 0 records
+2026-02-06 11:40:28,338 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:40:41,317 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:40:41,317 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:40:41,417 - lightrag - ERROR - Embedding func: Error in decorated function for task 4783938096_157070.993082041: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:40:41,417 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:40:41,417 - lightrag - INFO - Query nodes: Cough, Home remedies, Medication, Alleviate symptoms (top_k:40, cosine:0.2)
+2026-02-06 11:40:41,512 - lightrag - ERROR - Embedding func: Error in decorated function for task 4783938096_157071.0931555: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:40:41,512 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:41:09,860 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:41:09,860 - lightrag - INFO - [] Process 15815 KV load full_docs with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load text_chunks with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load full_entities with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load full_relations with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load entity_chunks with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load relation_chunks with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 KV load llm_response_cache with 0 records
+2026-02-06 11:41:09,861 - lightrag - INFO - [] Process 15815 doc status load doc_status with 0 records
+2026-02-06 11:41:34,302 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:41:34,302 - lightrag - INFO - [] Process 16101 KV load full_docs with 0 records
+2026-02-06 11:41:34,302 - lightrag - INFO - [] Process 16101 KV load text_chunks with 0 records
+2026-02-06 11:41:34,302 - lightrag - INFO - [] Process 16101 KV load full_entities with 0 records
+2026-02-06 11:41:34,302 - lightrag - INFO - [] Process 16101 KV load full_relations with 0 records
+2026-02-06 11:41:34,303 - lightrag - INFO - [] Process 16101 KV load entity_chunks with 0 records
+2026-02-06 11:41:34,303 - lightrag - INFO - [] Process 16101 KV load relation_chunks with 0 records
+2026-02-06 11:41:34,303 - lightrag - INFO - [] Process 16101 KV load llm_response_cache with 0 records
+2026-02-06 11:41:34,303 - lightrag - INFO - [] Process 16101 doc status load doc_status with 0 records
+2026-02-06 11:41:44,484 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:42:03,666 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:42:03,666 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:42:03,774 - lightrag - ERROR - Embedding func: Error in decorated function for task 4482783792_157153.341019416: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:42:03,774 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:42:03,774 - lightrag - INFO - Query nodes: Cough, Remedies, Self-care (top_k:40, cosine:0.2)
+2026-02-06 11:42:03,886 - lightrag - ERROR - Embedding func: Error in decorated function for task 4482783792_157153.449198666: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:42:03,886 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:47:22,115 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:d8a0cf46f2a779685c18416d9990af54
+2026-02-06 11:47:22,229 - lightrag - ERROR - Embedding func: Error in decorated function for task 4742380048_157471.786005625: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:47:22,229 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:47:22,229 - lightrag - INFO - Query nodes: Cough treatment, Remedies (top_k:40, cosine:0.2)
+2026-02-06 11:47:22,334 - lightrag - ERROR - Embedding func: Error in decorated function for task 4742380048_157471.900232875: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:47:22,334 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:47:53,249 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load full_docs with 0 records
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load text_chunks with 0 records
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load full_entities with 0 records
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load full_relations with 0 records
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load entity_chunks with 0 records
+2026-02-06 11:47:53,250 - lightrag - INFO - [] Process 16860 KV load relation_chunks with 0 records
+2026-02-06 11:47:53,251 - lightrag - INFO - [] Process 16860 KV load llm_response_cache with 0 records
+2026-02-06 11:47:53,251 - lightrag - INFO - [] Process 16860 doc status load doc_status with 0 records
+2026-02-06 11:48:01,464 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:48:14,934 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:48:14,934 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:48:15,013 - lightrag - ERROR - Embedding func: Error in decorated function for task 4820294192_157524.604613208: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:48:15,013 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:48:15,013 - lightrag - INFO - Query nodes: Home remedies, Medication, Natural remedies, Sore throat (top_k:40, cosine:0.2)
+2026-02-06 11:48:15,087 - lightrag - ERROR - Embedding func: Error in decorated function for task 4820294192_157524.683626708: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:48:15,087 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-004 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:49:05,928 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load full_docs with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load text_chunks with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load full_entities with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load full_relations with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load entity_chunks with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load relation_chunks with 0 records
+2026-02-06 11:49:05,929 - lightrag - INFO - [] Process 17165 KV load llm_response_cache with 0 records
+2026-02-06 11:49:05,930 - lightrag - INFO - [] Process 17165 doc status load doc_status with 0 records
+2026-02-06 11:49:11,857 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:49:19,559 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:49:19,560 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:49:19,645 - lightrag - ERROR - Embedding func: Error in decorated function for task 4469905968_157589.251556375: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:49:19,645 - lightrag - WARNING - Failed to pre-compute query embedding: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:49:19,645 - lightrag - INFO - Query nodes: Cough, Reduce cough, Remedies, Treatment (top_k:40, cosine:0.2)
+2026-02-06 11:49:19,732 - lightrag - ERROR - Embedding func: Error in decorated function for task 4469905968_157589.336920875: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:49:19,733 - lightrag - ERROR - Query failed: 404 NOT_FOUND. {'error': {'code': 404, 'message': 'models/text-embedding-001 is not found for API version v1beta, or is not supported for embedContent. Call ListModels to see the list of available models and their supported methods.', 'status': 'NOT_FOUND'}}
+2026-02-06 11:52:53,900 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:52:53,900 - lightrag - INFO - [] Process 18063 KV load full_docs with 0 records
+2026-02-06 11:52:53,900 - lightrag - INFO - [] Process 18063 KV load text_chunks with 0 records
+2026-02-06 11:52:53,900 - lightrag - INFO - [] Process 18063 KV load full_entities with 0 records
+2026-02-06 11:52:53,901 - lightrag - INFO - [] Process 18063 KV load full_relations with 0 records
+2026-02-06 11:52:53,901 - lightrag - INFO - [] Process 18063 KV load entity_chunks with 0 records
+2026-02-06 11:52:53,901 - lightrag - INFO - [] Process 18063 KV load relation_chunks with 0 records
+2026-02-06 11:52:53,901 - lightrag - INFO - [] Process 18063 KV load llm_response_cache with 0 records
+2026-02-06 11:52:53,901 - lightrag - INFO - [] Process 18063 doc status load doc_status with 0 records
+2026-02-06 11:53:15,705 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:53:17,623 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 11:53:17,623 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 11:53:17,623 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 11:53:17,623 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:53:18,021 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:53:18,021 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 11:53:18,390 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:53:47,539 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:53:47,539 - lightrag - INFO - [] Process 18906 KV load full_docs with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load text_chunks with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load full_entities with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load full_relations with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load entity_chunks with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load relation_chunks with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 KV load llm_response_cache with 0 records
+2026-02-06 11:53:47,540 - lightrag - INFO - [] Process 18906 doc status load doc_status with 0 records
+2026-02-06 11:54:15,556 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:54:15,556 - lightrag - INFO - [] Process 19153 KV load full_docs with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load text_chunks with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load full_entities with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load full_relations with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load entity_chunks with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load relation_chunks with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 KV load llm_response_cache with 0 records
+2026-02-06 11:54:15,557 - lightrag - INFO - [] Process 19153 doc status load doc_status with 0 records
+2026-02-06 11:54:22,875 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:54:24,810 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 11:54:24,810 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 11:54:24,810 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 11:54:24,810 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:54:25,215 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:54:25,215 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 11:54:25,646 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:54:59,081 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:54:59,081 - lightrag - INFO - [] Process 19415 KV load full_docs with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load text_chunks with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load full_entities with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load full_relations with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load entity_chunks with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load relation_chunks with 0 records
+2026-02-06 11:54:59,082 - lightrag - INFO - [] Process 19415 KV load llm_response_cache with 0 records
+2026-02-06 11:54:59,083 - lightrag - INFO - [] Process 19415 doc status load doc_status with 0 records
+2026-02-06 11:55:15,680 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:55:17,501 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 11:55:17,501 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 11:55:17,501 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 11:55:17,502 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:55:17,887 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:55:17,888 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 11:55:18,262 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:56:25,970 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:56:25,971 - lightrag - INFO - [] Process 20572 KV load full_docs with 0 records
+2026-02-06 11:56:25,971 - lightrag - INFO - [] Process 20572 KV load text_chunks with 0 records
+2026-02-06 11:56:25,971 - lightrag - INFO - [] Process 20572 KV load full_entities with 0 records
+2026-02-06 11:56:25,971 - lightrag - INFO - [] Process 20572 KV load full_relations with 0 records
+2026-02-06 11:56:25,972 - lightrag - INFO - [] Process 20572 KV load entity_chunks with 0 records
+2026-02-06 11:56:25,972 - lightrag - INFO - [] Process 20572 KV load relation_chunks with 0 records
+2026-02-06 11:56:25,972 - lightrag - INFO - [] Process 20572 KV load llm_response_cache with 0 records
+2026-02-06 11:56:25,972 - lightrag - INFO - [] Process 20572 doc status load doc_status with 0 records
+2026-02-06 11:58:38,268 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 11:58:38,268 - lightrag - INFO - [] Process 21564 KV load full_docs with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load text_chunks with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load full_entities with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load full_relations with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load entity_chunks with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load relation_chunks with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 KV load llm_response_cache with 0 records
+2026-02-06 11:58:38,269 - lightrag - INFO - [] Process 21564 doc status load doc_status with 0 records
+2026-02-06 11:59:00,797 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 11:59:09,077 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 11:59:09,077 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 11:59:09,477 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 11:59:09,477 - lightrag - INFO - Query nodes: Cough, Remedies, Treatment, Symptom reduction (top_k:40, cosine:0.2)
+2026-02-06 11:59:09,893 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:01:13,762 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:01:13,762 - lightrag - INFO - [] Process 22693 KV load full_docs with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load text_chunks with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load full_entities with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load full_relations with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load entity_chunks with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load relation_chunks with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 KV load llm_response_cache with 0 records
+2026-02-06 12:01:13,763 - lightrag - INFO - [] Process 22693 doc status load doc_status with 0 records
+2026-02-06 12:01:27,773 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:01:33,962 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-06 12:01:33,962 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:01:34,357 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:01:34,357 - lightrag - INFO - Query nodes: Cough, Remedies, Treatment, Relief options (top_k:40, cosine:0.2)
+2026-02-06 12:01:34,728 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:02:50,878 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:02:50,878 - lightrag - INFO - [] Process 22876 KV load full_docs with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load text_chunks with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load full_entities with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load full_relations with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load entity_chunks with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load relation_chunks with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 KV load llm_response_cache with 0 records
+2026-02-06 12:02:50,879 - lightrag - INFO - [] Process 22876 doc status load doc_status with 0 records
+2026-02-06 12:03:15,467 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:03:15,467 - lightrag - INFO - [] Process 23089 KV load full_docs with 0 records
+2026-02-06 12:03:15,467 - lightrag - INFO - [] Process 23089 KV load text_chunks with 0 records
+2026-02-06 12:03:15,467 - lightrag - INFO - [] Process 23089 KV load full_entities with 0 records
+2026-02-06 12:03:15,468 - lightrag - INFO - [] Process 23089 KV load full_relations with 0 records
+2026-02-06 12:03:15,468 - lightrag - INFO - [] Process 23089 KV load entity_chunks with 0 records
+2026-02-06 12:03:15,468 - lightrag - INFO - [] Process 23089 KV load relation_chunks with 0 records
+2026-02-06 12:03:15,468 - lightrag - INFO - [] Process 23089 KV load llm_response_cache with 0 records
+2026-02-06 12:03:15,468 - lightrag - INFO - [] Process 23089 doc status load doc_status with 0 records
+2026-02-06 12:03:28,916 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:03:31,477 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 12:03:31,477 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 12:03:31,477 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 12:03:31,477 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:03:31,855 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:03:31,855 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 12:03:32,210 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:06:19,548 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:06:19,548 - lightrag - INFO - [] Process 23936 KV load full_docs with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load text_chunks with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load full_entities with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load full_relations with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load entity_chunks with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load relation_chunks with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 KV load llm_response_cache with 0 records
+2026-02-06 12:06:19,549 - lightrag - INFO - [] Process 23936 doc status load doc_status with 0 records
+2026-02-06 12:06:28,594 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:06:30,422 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 12:06:30,423 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 12:06:30,423 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 12:06:30,423 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:06:30,795 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:06:30,795 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 12:06:31,168 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:06:58,145 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load full_docs with 0 records
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load text_chunks with 0 records
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load full_entities with 0 records
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load full_relations with 0 records
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load entity_chunks with 0 records
+2026-02-06 12:06:58,146 - lightrag - INFO - [] Process 25056 KV load relation_chunks with 0 records
+2026-02-06 12:06:58,147 - lightrag - INFO - [] Process 25056 KV load llm_response_cache with 0 records
+2026-02-06 12:06:58,147 - lightrag - INFO - [] Process 25056 doc status load doc_status with 0 records
+2026-02-06 12:06:59,987 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:06:59,987 - lightrag - INFO - [] Process 25065 KV load full_docs with 0 records
+2026-02-06 12:06:59,987 - lightrag - INFO - [] Process 25065 KV load text_chunks with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 KV load full_entities with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 KV load full_relations with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 KV load entity_chunks with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 KV load relation_chunks with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 KV load llm_response_cache with 0 records
+2026-02-06 12:06:59,988 - lightrag - INFO - [] Process 25065 doc status load doc_status with 0 records
+2026-02-06 12:07:03,451 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:07:03,452 - lightrag - INFO - [] Process 25074 KV load full_docs with 0 records
+2026-02-06 12:07:03,452 - lightrag - INFO - [] Process 25074 KV load text_chunks with 0 records
+2026-02-06 12:07:03,452 - lightrag - INFO - [] Process 25074 KV load full_entities with 0 records
+2026-02-06 12:07:03,452 - lightrag - INFO - [] Process 25074 KV load full_relations with 0 records
+2026-02-06 12:07:03,452 - lightrag - INFO - [] Process 25074 KV load entity_chunks with 0 records
+2026-02-06 12:07:03,453 - lightrag - INFO - [] Process 25074 KV load relation_chunks with 0 records
+2026-02-06 12:07:03,453 - lightrag - INFO - [] Process 25074 KV load llm_response_cache with 0 records
+2026-02-06 12:07:03,453 - lightrag - INFO - [] Process 25074 doc status load doc_status with 0 records
+2026-02-06 12:07:04,932 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:07:04,932 - lightrag - INFO - [] Process 25080 KV load full_docs with 0 records
+2026-02-06 12:07:05,796 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:07:05,796 - lightrag - INFO - [] Process 25084 KV load full_docs with 0 records
+2026-02-06 12:07:08,183 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:07:08,183 - lightrag - INFO - [] Process 25398 KV load full_docs with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load text_chunks with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load full_entities with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load full_relations with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load entity_chunks with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load relation_chunks with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 KV load llm_response_cache with 0 records
+2026-02-06 12:07:08,184 - lightrag - INFO - [] Process 25398 doc status load doc_status with 0 records
+2026-02-06 12:07:12,748 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:07:15,583 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 12:07:15,583 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 12:07:15,583 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 12:07:15,583 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:07:15,969 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:07:15,969 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 12:07:16,346 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:08:22,328 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load full_docs with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load text_chunks with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load full_entities with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load full_relations with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load entity_chunks with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load relation_chunks with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 KV load llm_response_cache with 0 records
+2026-02-06 12:08:22,329 - lightrag - INFO - [] Process 26518 doc status load doc_status with 0 records
+2026-02-06 12:09:02,993 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:09:04,967 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 12:09:04,967 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 12:09:04,967 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 12:09:04,967 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:09:05,369 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:09:05,369 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 12:09:05,744 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:09:19,661 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:09:19,661 - lightrag - INFO - [] Process 26941 KV load full_docs with 0 records
+2026-02-06 12:09:19,661 - lightrag - INFO - [] Process 26941 KV load text_chunks with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 KV load full_entities with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 KV load full_relations with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 KV load entity_chunks with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 KV load relation_chunks with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 KV load llm_response_cache with 0 records
+2026-02-06 12:09:19,662 - lightrag - INFO - [] Process 26941 doc status load doc_status with 0 records
+2026-02-06 12:09:32,680 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:09:34,461 - lightrag - WARNING - low_level_keywords is empty
+2026-02-06 12:09:34,461 - lightrag - WARNING - high_level_keywords is empty
+2026-02-06 12:09:34,461 - lightrag - WARNING - Forced low_level_keywords to origin query: Xin chao
+2026-02-06 12:09:34,461 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-06 12:09:34,869 - lightrag - WARNING - Failed to pre-compute query embedding: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:09:34,869 - lightrag - INFO - Query nodes: Xin chao (top_k:40, cosine:0.2)
+2026-02-06 12:09:35,340 - lightrag - ERROR - Query failed: Vector count mismatch: expected 1 vectors but got 4 vectors (from embedding result).
+2026-02-06 12:10:03,249 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load full_docs with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load text_chunks with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load full_entities with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load full_relations with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load entity_chunks with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load relation_chunks with 0 records
+2026-02-06 12:10:03,250 - lightrag - INFO - [] Process 27205 KV load llm_response_cache with 0 records
+2026-02-06 12:10:03,251 - lightrag - INFO - [] Process 27205 doc status load doc_status with 0 records
+2026-02-06 12:11:28,943 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:11:28,944 - lightrag - INFO - [] Process 27441 KV load full_docs with 0 records
+2026-02-06 12:11:28,944 - lightrag - INFO - [] Process 27441 KV load text_chunks with 0 records
+2026-02-06 12:11:28,944 - lightrag - INFO - [] Process 27441 KV load full_entities with 0 records
+2026-02-06 12:11:28,944 - lightrag - INFO - [] Process 27441 KV load full_relations with 0 records
+2026-02-06 12:11:28,944 - lightrag - INFO - [] Process 27441 KV load entity_chunks with 0 records
+2026-02-06 12:11:28,945 - lightrag - INFO - [] Process 27441 KV load relation_chunks with 0 records
+2026-02-06 12:11:28,945 - lightrag - INFO - [] Process 27441 KV load llm_response_cache with 0 records
+2026-02-06 12:11:28,945 - lightrag - INFO - [] Process 27441 doc status load doc_status with 0 records
+2026-02-06 12:11:37,616 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:12:09,046 - lightrag - ERROR - LLM func: Error in decorated function for task 4512569808_158958.261466666: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.179139285s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}
+2026-02-06 12:12:09,046 - lightrag - ERROR - Query failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 51.179139285s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'model': 'gemini-2.5-flash', 'location': 'global'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '51s'}]}}
+2026-02-06 12:12:21,452 - lightrag - ERROR - LLM func: Error in decorated function for task 4519496592_158970.807920041: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.771237906s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}
+2026-02-06 12:12:21,452 - lightrag - ERROR - Query failed: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 20, model: gemini-2.5-flash\nPlease retry in 38.771237906s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-2.5-flash'}, 'quotaValue': '20'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '38s'}]}}
+2026-02-06 12:13:02,804 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load full_docs with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load text_chunks with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load full_entities with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load full_relations with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load entity_chunks with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load relation_chunks with 0 records
+2026-02-06 12:13:02,805 - lightrag - INFO - [] Process 27738 KV load llm_response_cache with 0 records
+2026-02-06 12:13:02,806 - lightrag - INFO - [] Process 27738 doc status load doc_status with 0 records
+2026-02-06 12:17:28,327 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-06 12:19:34,772 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:19:34,773 - lightrag - INFO - [] Process 29713 KV load full_docs with 0 records
+2026-02-06 12:19:34,773 - lightrag - INFO - [] Process 29713 KV load text_chunks with 0 records
+2026-02-06 12:19:34,773 - lightrag - INFO - [] Process 29713 KV load full_entities with 0 records
+2026-02-06 12:19:34,773 - lightrag - INFO - [] Process 29713 KV load full_relations with 0 records
+2026-02-06 12:19:34,773 - lightrag - INFO - [] Process 29713 KV load entity_chunks with 0 records
+2026-02-06 12:19:34,774 - lightrag - INFO - [] Process 29713 KV load relation_chunks with 0 records
+2026-02-06 12:19:34,774 - lightrag - INFO - [] Process 29713 KV load llm_response_cache with 0 records
+2026-02-06 12:19:34,774 - lightrag - INFO - [] Process 29713 doc status load doc_status with 0 records
+2026-02-06 12:23:14,833 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:23:14,833 - lightrag - INFO - [] Process 29841 KV load full_docs with 0 records
+2026-02-06 12:23:14,833 - lightrag - INFO - [] Process 29841 KV load text_chunks with 0 records
+2026-02-06 12:23:14,833 - lightrag - INFO - [] Process 29841 KV load full_entities with 0 records
+2026-02-06 12:23:14,833 - lightrag - INFO - [] Process 29841 KV load full_relations with 0 records
+2026-02-06 12:23:14,834 - lightrag - INFO - [] Process 29841 KV load entity_chunks with 0 records
+2026-02-06 12:23:14,834 - lightrag - INFO - [] Process 29841 KV load relation_chunks with 0 records
+2026-02-06 12:23:14,834 - lightrag - INFO - [] Process 29841 KV load llm_response_cache with 0 records
+2026-02-06 12:23:14,834 - lightrag - INFO - [] Process 29841 doc status load doc_status with 0 records
+2026-02-06 12:26:18,204 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-06 12:26:18,204 - lightrag - INFO - [] Process 36353 KV load full_docs with 0 records
+2026-02-06 12:26:18,204 - lightrag - INFO - [] Process 36353 KV load text_chunks with 0 records
+2026-02-06 12:26:18,204 - lightrag - INFO - [] Process 36353 KV load full_entities with 0 records
+2026-02-06 12:26:18,204 - lightrag - INFO - [] Process 36353 KV load full_relations with 0 records
+2026-02-06 12:26:18,205 - lightrag - INFO - [] Process 36353 KV load entity_chunks with 0 records
+2026-02-06 12:26:18,205 - lightrag - INFO - [] Process 36353 KV load relation_chunks with 0 records
+2026-02-06 12:26:18,205 - lightrag - INFO - [] Process 36353 KV load llm_response_cache with 0 records
+2026-02-06 12:26:18,205 - lightrag - INFO - [] Process 36353 doc status load doc_status with 0 records
+2026-02-07 13:05:29,727 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 13:05:29,727 - lightrag - INFO - [] Process 12817 KV load full_docs with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load text_chunks with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load full_entities with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load full_relations with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load entity_chunks with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load relation_chunks with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 KV load llm_response_cache with 0 records
+2026-02-07 13:05:29,728 - lightrag - INFO - [] Process 12817 doc status load doc_status with 0 records
+2026-02-07 13:20:25,639 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:20:32,263 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:8dc12198f9252931a45135baecf51d64
+2026-02-07 13:20:32,263 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:20:32,805 - lightrag - INFO - Query nodes: Ho, Treatment, Remedies (top_k:40, cosine:0.2)
+2026-02-07 13:20:33,307 - lightrag - INFO - Query edges: Cough relief, Home remedies, Health advice (top_k:40, cosine:0.2)
+2026-02-07 13:20:33,686 - lightrag - INFO - Raw search results: 0 entities, 0 relations, 0 vector chunks
+2026-02-07 13:20:33,686 - lightrag - INFO - [kg_query] No query context could be built; returning no-result.
+2026-02-07 13:29:25,539 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:d86c61724d3157ea347051e96c4a52cc
+2026-02-07 13:29:26,011 - lightrag - INFO - Query nodes: Ho, Treatment, Remedies, Symptoms (top_k:40, cosine:0.2)
+2026-02-07 13:29:26,394 - lightrag - INFO - Query edges: Cough, Medical advice, Health concerns (top_k:40, cosine:0.2)
+2026-02-07 13:29:26,756 - lightrag - INFO - Raw search results: 0 entities, 0 relations, 0 vector chunks
+2026-02-07 13:29:26,756 - lightrag - INFO - [kg_query] No query context could be built; returning no-result.
+2026-02-07 13:31:26,373 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 13:31:26,373 - lightrag - INFO - [] Process 28164 KV load full_docs with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load text_chunks with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load full_entities with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load full_relations with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load entity_chunks with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load relation_chunks with 0 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 KV load llm_response_cache with 2 records
+2026-02-07 13:31:26,374 - lightrag - INFO - [] Process 28164 doc status load doc_status with 0 records
+2026-02-07 13:31:44,508 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:32:19,790 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1c0b8a3cb4c41a43b3f207ce0c27db18
+2026-02-07 13:32:19,791 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:32:20,163 - lightrag - INFO - Query nodes: Cough, Remedies, Treatment (top_k:40, cosine:0.2)
+2026-02-07 13:32:20,518 - lightrag - INFO - Query edges: Cough relief, Home remedies, Symptom management (top_k:40, cosine:0.2)
+2026-02-07 13:32:20,902 - lightrag - INFO - Raw search results: 0 entities, 0 relations, 0 vector chunks
+2026-02-07 13:32:20,902 - lightrag - INFO - [kg_query] No query context could be built; returning no-result.
+2026-02-07 13:37:19,084 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load full_docs with 0 records
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load text_chunks with 0 records
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load full_entities with 0 records
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load full_relations with 0 records
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load entity_chunks with 0 records
+2026-02-07 13:37:19,085 - lightrag - INFO - [] Process 34323 KV load relation_chunks with 0 records
+2026-02-07 13:37:19,086 - lightrag - INFO - [] Process 34323 KV load llm_response_cache with 3 records
+2026-02-07 13:37:19,086 - lightrag - INFO - [] Process 34323 doc status load doc_status with 0 records
+2026-02-07 13:38:35,263 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 13:38:35,263 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 13:38:35,263 - lightrag - INFO - Processing d-id: doc-327f994c97be3631dba573d44cdd3cdb
+2026-02-07 13:38:35,270 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:38:35,932 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:38:36,397 - lightrag - ERROR - LLM func: Error in decorated function for task 4544760976_4112.988364916: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}
+2026-02-07 13:38:36,397 - lightrag - ERROR - Failed to extract entities and relationships: C[1/1]: chunk-327f994c97be3631dba573d44cdd3cdb: ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}} (Original exception could not be reconstructed: APIError.__init__() missing 1 required positional argument: 'response_json')
+2026-02-07 13:38:36,407 - lightrag - ERROR - Traceback (most recent call last):
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/operate.py", line 2962, in _process_with_semaphore
+    return await _process_single_content(chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/operate.py", line 2847, in _process_single_content
+    final_result, timestamp = await use_llm_func_with_cache(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/utils.py", line 2029, in use_llm_func_with_cache
+    res: str = await use_llm_func(
+               ^^^^^^^^^^^^^^^^^^^
+        safe_user_prompt, system_prompt=safe_system_prompt, **kwargs
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/utils.py", line 1016, in wait_func
+    return await future
+           ^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/utils.py", line 720, in worker
+    result = await asyncio.wait_for(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+        func(*args, **kwargs), timeout=max_execution_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/asyncio/tasks.py", line 488, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/app/services/rag_service.py", line 78, in llm_model_func
+    return await gemini_model_complete(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/llm/gemini.py", line 454, in gemini_model_complete
+    return await gemini_complete_if_cache(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 193, in async_wrapped
+    return await copy(fn, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 394, in <lambda>
+    self._add_action_func(lambda rs: rs.outcome.result())
+                                     ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/llm/gemini.py", line 394, in gemini_complete_if_cache
+    response = await client.aio.models.generate_content(**request_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/models.py", line 7331, in generate_content
+    response = await self._generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        model=model, contents=contents, config=parsed_config
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/models.py", line 6095, in _generate_content
+    response = await self._api_client.async_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        'post', path, request_dict, http_options
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1432, in async_request
+    result = await self._async_request(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+        http_request=http_request, http_options=http_options, stream=False
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1365, in _async_request
+    return await self._async_retry(  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        self._async_request_once, http_request, stream
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 112, in __call__
+    do = await self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 157, in iter
+    result = await action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/_utils.py", line 111, in inner
+    return call(*args, **kwargs)
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 414, in exc_check
+    raise retry_exc.reraise()
+          ~~~~~~~~~~~~~~~~~^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/__init__.py", line 185, in reraise
+    raise self.last_attempt.result()
+          ~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 443, in result
+    return self.__get_result()
+           ~~~~~~~~~~~~~~~~~^^
+  File "/Library/Frameworks/Python.framework/Versions/3.14/lib/python3.14/concurrent/futures/_base.py", line 395, in __get_result
+    raise self._exception
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/tenacity/asyncio/__init__.py", line 116, in __call__
+    result = await fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/_api_client.py", line 1310, in _async_request_once
+    await errors.APIError.raise_for_async_response(response)
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 216, in raise_for_async_response
+    await cls.raise_error_async(status_code, response_json, response)
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/google/genai/errors.py", line 238, in raise_error_async
+    raise ClientError(status_code, response_json, response)
+google.genai.errors.ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}}
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/operate.py", line 2966, in _process_with_semaphore
+    raise prefixed_exception from e
+RuntimeError: chunk-327f994c97be3631dba573d44cdd3cdb: ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}} (Original exception could not be reconstructed: APIError.__init__() missing 1 required positional argument: 'response_json')
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/lightrag.py", line 1903, in process_document
+    chunk_results = await entity_relation_task
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/lightrag.py", line 2187, in _process_extract_entities
+    raise e
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/lightrag.py", line 2172, in _process_extract_entities
+    chunk_results = await extract_entities(
+                    ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/Users/tinngo/Documents/Code/UI-for-HUY-main/backend/.venv/lib/python3.14/site-packages/lightrag/operate.py", line 3008, in extract_entities
+    raise prefixed_exception from first_exception
+RuntimeError: C[1/1]: chunk-327f994c97be3631dba573d44cdd3cdb: ClientError: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'Developer instruction is not enabled for models/gemma-3-12b-it', 'status': 'INVALID_ARGUMENT'}} (Original exception could not be reconstructed: APIError.__init__() missing 1 required positional argument: 'response_json')
+
+2026-02-07 13:38:36,407 - lightrag - ERROR - Failed to extract document 1/1: unknown_source
+2026-02-07 13:38:36,410 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 13:39:49,748 - lightrag - INFO - [] Created new empty graph file: ./rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load full_docs with 1 records
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load text_chunks with 0 records
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load full_entities with 0 records
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load full_relations with 0 records
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load entity_chunks with 0 records
+2026-02-07 13:39:49,749 - lightrag - INFO - [] Process 35805 KV load relation_chunks with 0 records
+2026-02-07 13:39:49,750 - lightrag - INFO - [] Process 35805 KV load llm_response_cache with 3 records
+2026-02-07 13:39:49,750 - lightrag - INFO - [] Process 35805 doc status load doc_status with 1 records
+2026-02-07 13:40:01,761 - lightrag - WARNING - Ignoring document ID (already exists): doc-327f994c97be3631dba573d44cdd3cdb (unknown_source)
+2026-02-07 13:40:01,761 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 13:40:01,762 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-02-07 13:40:01,762 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 13:40:01,762 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 13:40:01,762 - lightrag - INFO - Processing d-id: doc-327f994c97be3631dba573d44cdd3cdb
+2026-02-07 13:40:01,768 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:40:02,261 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:40:17,417 - lightrag - INFO -  == LLM cache == saving: default:extract:498551ff5435f83be2e6e05a11532006
+2026-02-07 13:40:22,663 - lightrag - INFO -  == LLM cache == saving: default:extract:381f388d5be3cd8cfa8a23fbb6a2e57b
+2026-02-07 13:40:22,664 - lightrag - INFO - Chunk 1 of 1 extracted 3 Ent + 2 Rel chunk-327f994c97be3631dba573d44cdd3cdb
+2026-02-07 13:40:22,665 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 13:40:22,665 - lightrag - INFO - Phase 1: Processing 3 entities from doc-327f994c97be3631dba573d44cdd3cdb (async: 8)
+2026-02-07 13:40:23,168 - lightrag - INFO - Phase 2: Processing 2 relations from doc-327f994c97be3631dba573d44cdd3cdb (async: 8)
+2026-02-07 13:40:23,963 - lightrag - INFO - Phase 3: Updating final 3(3+0) entities and  2 relations from doc-327f994c97be3631dba573d44cdd3cdb
+2026-02-07 13:40:23,963 - lightrag - INFO - Completed merging: 3 entities, 0 extra entities, 2 relations
+2026-02-07 13:40:23,966 - lightrag - INFO - [] Writing graph with 3 nodes, 2 edges
+2026-02-07 13:40:24,350 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 13:40:24,350 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 13:40:24,351 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 13:40:24,351 - lightrag - WARNING - Ignoring document ID (already exists): doc-327f994c97be3631dba573d44cdd3cdb (unknown_source)
+2026-02-07 13:40:24,351 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 13:40:24,351 - lightrag - INFO - No documents to process
+2026-02-07 13:40:56,266 - lightrag - WARNING - Ignoring document ID (already exists): doc-327f994c97be3631dba573d44cdd3cdb (unknown_source)
+2026-02-07 13:40:56,267 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 13:40:56,267 - lightrag - INFO - No documents to process
+2026-02-07 13:41:35,095 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:1288e86687933db42e45ba52c1930add
+2026-02-07 13:41:35,472 - lightrag - INFO - Query nodes: LightRAG, model, AI model, Language model (top_k:40, cosine:0.2)
+2026-02-07 13:41:35,831 - lightrag - INFO - Local query: 3 entites, 2 relations
+2026-02-07 13:41:35,831 - lightrag - INFO - Query edges: LightRAG system, Model architecture, Technology components (top_k:40, cosine:0.2)
+2026-02-07 13:41:36,189 - lightrag - INFO - Global query: 3 entites, 2 relations
+2026-02-07 13:41:36,189 - lightrag - INFO - Raw search results: 3 entities, 2 relations, 0 vector chunks
+2026-02-07 13:41:36,190 - lightrag - INFO - After truncation: 3 entities, 2 relations
+2026-02-07 13:41:36,191 - lightrag - INFO - Selecting 1 from 1 entity-related chunks by vector similarity
+2026-02-07 13:41:36,191 - lightrag - INFO - Find no additional relations-related chunks from 2 relations
+2026-02-07 13:41:36,191 - lightrag - INFO - Round-robin merged chunks: 1 -> 1 (deduplicated 0)
+2026-02-07 13:41:36,192 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-02-07 13:41:36,192 - lightrag - INFO - Final context: 3 entities, 2 relations, 1 chunks
+2026-02-07 13:41:36,192 - lightrag - INFO - Final chunks S+F/O: E3/1
+2026-02-07 13:41:37,607 - lightrag - INFO -  == LLM cache == saving: hybrid:query:31597dcf3fc03c9e3489c1671e49e1d3
+2026-02-07 13:44:39,151 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 13:44:39,151 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 13:44:39,151 - lightrag - INFO - Processing d-id: doc-243b664816d70ae132c3e39dddbb8148
+2026-02-07 13:44:58,417 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:87b72b0fb8cc339ef340c6ff1cac5811
+2026-02-07 13:44:58,822 - lightrag - INFO - Query nodes: Newborns, Infants, Danger signs, Treatment, Bilirubin levels (top_k:40, cosine:0.2)
+2026-02-07 13:44:59,219 - lightrag - INFO - Local query: 3 entites, 2 relations
+2026-02-07 13:44:59,219 - lightrag - INFO - Query edges: Neonatal jaundice, Jaundice severity, Jaundice management (top_k:40, cosine:0.2)
+2026-02-07 13:44:59,606 - lightrag - INFO - Global query: 3 entites, 2 relations
+2026-02-07 13:44:59,606 - lightrag - INFO - Raw search results: 3 entities, 2 relations, 0 vector chunks
+2026-02-07 13:44:59,606 - lightrag - INFO - After truncation: 3 entities, 2 relations
+2026-02-07 13:44:59,606 - lightrag - INFO - Selecting 1 from 1 entity-related chunks by vector similarity
+2026-02-07 13:44:59,606 - lightrag - INFO - Find no additional relations-related chunks from 2 relations
+2026-02-07 13:44:59,606 - lightrag - INFO - Round-robin merged chunks: 1 -> 1 (deduplicated 0)
+2026-02-07 13:44:59,607 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-02-07 13:44:59,607 - lightrag - INFO - Final context: 3 entities, 2 relations, 1 chunks
+2026-02-07 13:44:59,607 - lightrag - INFO - Final chunks S+F/O: E3/1
+2026-02-07 13:45:01,355 - lightrag - INFO -  == LLM cache == saving: hybrid:query:27b573b28b3a640867380d5713524393
+2026-02-07 13:45:06,031 - lightrag - INFO -  == LLM cache == saving: default:extract:54507abdf8090ae7ce8ccb2089e5fe9e
+2026-02-07 13:45:12,024 - lightrag - INFO -  == LLM cache == saving: default:extract:c122b6e1dfaabe8a5e18f218cd2a9d72
+2026-02-07 13:45:12,025 - lightrag - INFO - Chunk 1 of 1 extracted 12 Ent + 11 Rel chunk-243b664816d70ae132c3e39dddbb8148
+2026-02-07 13:45:12,026 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 13:45:12,026 - lightrag - INFO - Phase 1: Processing 12 entities from doc-243b664816d70ae132c3e39dddbb8148 (async: 8)
+2026-02-07 13:45:12,804 - lightrag - INFO - Phase 2: Processing 11 relations from doc-243b664816d70ae132c3e39dddbb8148 (async: 8)
+2026-02-07 13:45:14,892 - lightrag - INFO - Phase 3: Updating final 12(12+0) entities and  11 relations from doc-243b664816d70ae132c3e39dddbb8148
+2026-02-07 13:45:14,892 - lightrag - INFO - Completed merging: 12 entities, 0 extra entities, 11 relations
+2026-02-07 13:45:14,895 - lightrag - INFO - [] Writing graph with 15 nodes, 13 edges
+2026-02-07 13:45:14,896 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 13:45:14,896 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 13:45:14,896 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 13:50:48,608 - lightrag - INFO - [] Loaded graph from ./rag_storage/graph_chunk_entity_relation.graphml with 15 nodes, 13 edges
+2026-02-07 13:50:48,609 - lightrag - INFO - [] Process 42248 KV load full_docs with 2 records
+2026-02-07 13:50:48,610 - lightrag - INFO - [] Process 42248 KV load text_chunks with 2 records
+2026-02-07 13:50:48,610 - lightrag - INFO - [] Process 42248 KV load full_entities with 2 records
+2026-02-07 13:50:48,611 - lightrag - INFO - [] Process 42248 KV load full_relations with 2 records
+2026-02-07 13:50:48,611 - lightrag - INFO - [] Process 42248 KV load entity_chunks with 15 records
+2026-02-07 13:50:48,611 - lightrag - INFO - [] Process 42248 KV load relation_chunks with 13 records
+2026-02-07 13:50:48,612 - lightrag - INFO - [] Process 42248 KV load llm_response_cache with 11 records
+2026-02-07 13:50:48,612 - lightrag - INFO - [] Process 42248 doc status load doc_status with 2 records
+2026-02-07 13:54:16,372 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 11826 nodes, 15628 edges
+2026-02-07 13:54:16,890 - lightrag - INFO - [] Process 43173 KV load full_docs with 1 records
+2026-02-07 13:54:16,895 - lightrag - INFO - [] Process 43173 KV load text_chunks with 348 records
+2026-02-07 13:54:16,896 - lightrag - INFO - [] Process 43173 KV load full_entities with 1 records
+2026-02-07 13:54:16,901 - lightrag - INFO - [] Process 43173 KV load full_relations with 1 records
+2026-02-07 13:54:16,913 - lightrag - INFO - [] Process 43173 KV load entity_chunks with 11826 records
+2026-02-07 13:54:16,930 - lightrag - INFO - [] Process 43173 KV load relation_chunks with 15628 records
+2026-02-07 13:54:16,980 - lightrag - INFO - [] Process 43173 KV load llm_response_cache with 829 records
+2026-02-07 13:54:16,980 - lightrag - INFO - [] Process 43173 doc status load doc_status with 1 records
+2026-02-07 13:54:48,182 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:54:55,969 - lightrag - INFO -  == LLM cache == saving: hybrid:keywords:86a8a726c4a2cdec02e6a97e8d963007
+2026-02-07 13:54:55,970 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:54:56,362 - lightrag - INFO - Query nodes: Newborn care, Infant diseases, Neonatal development, Premature birth, Infant nutrition (top_k:40, cosine:0.2)
+2026-02-07 13:54:56,745 - lightrag - INFO - Query edges: Neonatal pediatrics, Newborn health, Medical knowledge (top_k:40, cosine:0.2)
+2026-02-07 13:54:57,120 - lightrag - INFO - Raw search results: 0 entities, 0 relations, 0 vector chunks
+2026-02-07 13:54:57,120 - lightrag - INFO - [kg_query] No query context could be built; returning no-result.
+2026-02-07 13:58:34,975 - lightrag - INFO - [] Created new empty graph file: /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 13:58:34,979 - lightrag - INFO - [] Process 47730 KV load full_docs with 1 records
+2026-02-07 13:58:34,982 - lightrag - INFO - [] Process 47730 KV load text_chunks with 348 records
+2026-02-07 13:58:34,982 - lightrag - INFO - [] Process 47730 KV load full_entities with 0 records
+2026-02-07 13:58:34,982 - lightrag - INFO - [] Process 47730 KV load full_relations with 0 records
+2026-02-07 13:58:34,983 - lightrag - INFO - [] Process 47730 KV load entity_chunks with 0 records
+2026-02-07 13:58:34,983 - lightrag - INFO - [] Process 47730 KV load relation_chunks with 0 records
+2026-02-07 13:58:34,983 - lightrag - INFO - [] Process 47730 KV load llm_response_cache with 0 records
+2026-02-07 13:58:34,983 - lightrag - INFO - [] Process 47730 doc status load doc_status with 0 records
+2026-02-07 13:59:14,577 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 13:59:14,577 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 13:59:14,577 - lightrag - INFO - Processing d-id: doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 13:59:14,582 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 13:59:15,046 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 13:59:21,565 - lightrag - INFO -  == LLM cache == saving: default:extract:9edd365b8f8a95170fd26d025a200465
+2026-02-07 13:59:24,955 - lightrag - INFO -  == LLM cache == saving: default:extract:51ec190bbb00c271b4d8e1a680e0a9f7
+2026-02-07 13:59:24,956 - lightrag - INFO - Chunk 1 of 1 extracted 2 Ent + 1 Rel chunk-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 13:59:24,956 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 13:59:24,957 - lightrag - INFO - Phase 1: Processing 2 entities from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 13:59:25,446 - lightrag - INFO - Phase 2: Processing 1 relations from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 13:59:25,802 - lightrag - INFO - Phase 3: Updating final 2(2+0) entities and  1 relations from doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 13:59:25,802 - lightrag - INFO - Completed merging: 2 entities, 0 extra entities, 1 relations
+2026-02-07 13:59:25,811 - lightrag - INFO - [] Writing graph with 2 nodes, 1 edges
+2026-02-07 13:59:25,826 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 13:59:25,826 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 13:59:25,826 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 13:59:25,831 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 13:59:25,831 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 13:59:25,831 - lightrag - INFO - Processing d-id: doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 13:59:38,955 - lightrag - INFO -  == LLM cache == saving: default:extract:e4bcdf1f205280baf25e2cf7bd1d6e07
+2026-02-07 13:59:52,664 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 2 nodes, 1 edges
+2026-02-07 13:59:52,668 - lightrag - INFO - [] Process 50310 KV load full_docs with 3 records
+2026-02-07 13:59:52,672 - lightrag - INFO - [] Process 50310 KV load text_chunks with 348 records
+2026-02-07 13:59:52,672 - lightrag - INFO - [] Process 50310 KV load full_entities with 1 records
+2026-02-07 13:59:52,672 - lightrag - INFO - [] Process 50310 KV load full_relations with 1 records
+2026-02-07 13:59:52,672 - lightrag - INFO - [] Process 50310 KV load entity_chunks with 2 records
+2026-02-07 13:59:52,673 - lightrag - INFO - [] Process 50310 KV load relation_chunks with 1 records
+2026-02-07 13:59:52,673 - lightrag - INFO - [] Process 50310 KV load llm_response_cache with 2 records
+2026-02-07 13:59:52,673 - lightrag - INFO - [] Process 50310 doc status load doc_status with 2 records
+2026-02-07 14:00:32,221 - lightrag - INFO - [] Created new empty graph file: /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 14:00:32,225 - lightrag - INFO - [] Process 52445 KV load full_docs with 3 records
+2026-02-07 14:00:32,229 - lightrag - INFO - [] Process 52445 KV load text_chunks with 348 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 KV load full_entities with 0 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 KV load full_relations with 0 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 KV load entity_chunks with 0 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 KV load relation_chunks with 0 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 KV load llm_response_cache with 0 records
+2026-02-07 14:00:32,230 - lightrag - INFO - [] Process 52445 doc status load doc_status with 0 records
+2026-02-07 14:00:51,411 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:00:51,411 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:00:51,411 - lightrag - INFO - Processing d-id: doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:00:51,418 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:00:51,971 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:00:57,187 - lightrag - INFO -  == LLM cache == saving: default:extract:9edd365b8f8a95170fd26d025a200465
+2026-02-07 14:01:01,677 - lightrag - INFO -  == LLM cache == saving: default:extract:6861bf32dc2bb8127d2946243541418e
+2026-02-07 14:01:01,677 - lightrag - INFO - Chunk 1 of 1 extracted 2 Ent + 1 Rel chunk-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:01:01,678 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:01:01,678 - lightrag - INFO - Phase 1: Processing 2 entities from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 14:01:02,094 - lightrag - INFO - Phase 2: Processing 1 relations from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 14:01:02,451 - lightrag - INFO - Phase 3: Updating final 2(2+0) entities and  1 relations from doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:01:02,452 - lightrag - INFO - Completed merging: 2 entities, 0 extra entities, 1 relations
+2026-02-07 14:01:02,465 - lightrag - INFO - [] Writing graph with 2 nodes, 1 edges
+2026-02-07 14:01:02,481 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:01:02,481 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:01:02,482 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:01:02,486 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:01:02,486 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:01:02,486 - lightrag - INFO - Processing d-id: doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:01:10,195 - lightrag - INFO -  == LLM cache == saving: default:extract:e4bcdf1f205280baf25e2cf7bd1d6e07
+2026-02-07 14:01:23,908 - lightrag - INFO -  == LLM cache == saving: default:extract:8ffbaadc0362b121734d7af314c4df81
+2026-02-07 14:01:23,909 - lightrag - INFO - Chunk 1 of 1 extracted 6 Ent + 5 Rel chunk-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:01:23,910 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:01:23,910 - lightrag - INFO - Phase 1: Processing 6 entities from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 14:01:24,424 - lightrag - INFO - Phase 2: Processing 5 relations from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 14:01:25,875 - lightrag - INFO - Phase 3: Updating final 6(6+0) entities and  5 relations from doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:01:25,875 - lightrag - INFO - Completed merging: 6 entities, 0 extra entities, 5 relations
+2026-02-07 14:01:25,887 - lightrag - INFO - [] Writing graph with 8 nodes, 6 edges
+2026-02-07 14:01:25,889 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:01:25,889 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:01:25,890 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:01:25,897 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:01:25,897 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:01:25,897 - lightrag - INFO - Processing d-id: doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:01:54,956 - lightrag - INFO -  == LLM cache == saving: default:extract:86ab720ca6c482352184e21efd8ba357
+2026-02-07 14:02:00,885 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 8 nodes, 6 edges
+2026-02-07 14:02:00,889 - lightrag - INFO - [] Process 55128 KV load full_docs with 4 records
+2026-02-07 14:02:00,893 - lightrag - INFO - [] Process 55128 KV load text_chunks with 348 records
+2026-02-07 14:02:00,893 - lightrag - INFO - [] Process 55128 KV load full_entities with 2 records
+2026-02-07 14:02:00,893 - lightrag - INFO - [] Process 55128 KV load full_relations with 2 records
+2026-02-07 14:02:00,893 - lightrag - INFO - [] Process 55128 KV load entity_chunks with 8 records
+2026-02-07 14:02:00,894 - lightrag - INFO - [] Process 55128 KV load relation_chunks with 6 records
+2026-02-07 14:02:00,894 - lightrag - INFO - [] Process 55128 KV load llm_response_cache with 4 records
+2026-02-07 14:02:00,894 - lightrag - INFO - [] Process 55128 doc status load doc_status with 3 records
+2026-02-07 14:02:23,609 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 8 nodes, 6 edges
+2026-02-07 14:02:23,615 - lightrag - INFO - [] Process 56430 KV load full_docs with 4 records
+2026-02-07 14:02:23,620 - lightrag - INFO - [] Process 56430 KV load text_chunks with 348 records
+2026-02-07 14:02:23,621 - lightrag - INFO - [] Process 56430 KV load full_entities with 2 records
+2026-02-07 14:02:23,621 - lightrag - INFO - [] Process 56430 KV load full_relations with 2 records
+2026-02-07 14:02:23,622 - lightrag - INFO - [] Process 56430 KV load entity_chunks with 8 records
+2026-02-07 14:02:23,622 - lightrag - INFO - [] Process 56430 KV load relation_chunks with 6 records
+2026-02-07 14:02:23,623 - lightrag - INFO - [] Process 56430 KV load llm_response_cache with 4 records
+2026-02-07 14:02:23,623 - lightrag - INFO - [] Process 56430 doc status load doc_status with 3 records
+2026-02-07 14:02:43,881 - lightrag - WARNING - Ignoring document ID (already exists): doc-f4e8801894f80bd4bee30c75369a2db6 (unknown_source)
+2026-02-07 14:02:43,882 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 14:02:43,883 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-02-07 14:02:43,883 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:02:43,884 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:02:43,884 - lightrag - INFO - Processing d-id: doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:02:43,892 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:02:44,595 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:08:38,082 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 8 nodes, 6 edges
+2026-02-07 14:08:38,086 - lightrag - INFO - [] Process 57946 KV load full_docs with 4 records
+2026-02-07 14:08:38,089 - lightrag - INFO - [] Process 57946 KV load text_chunks with 348 records
+2026-02-07 14:08:38,090 - lightrag - INFO - [] Process 57946 KV load full_entities with 2 records
+2026-02-07 14:08:38,090 - lightrag - INFO - [] Process 57946 KV load full_relations with 2 records
+2026-02-07 14:08:38,090 - lightrag - INFO - [] Process 57946 KV load entity_chunks with 8 records
+2026-02-07 14:08:38,090 - lightrag - INFO - [] Process 57946 KV load relation_chunks with 6 records
+2026-02-07 14:08:38,091 - lightrag - INFO - [] Process 57946 KV load llm_response_cache with 4 records
+2026-02-07 14:08:38,091 - lightrag - INFO - [] Process 57946 doc status load doc_status with 3 records
+2026-02-07 14:09:13,305 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:09:13,621 - lightrag - ERROR - LLM func: Error in decorated function for task 4758298240_5950.38797325: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-07 14:09:13,621 - lightrag - ERROR - Query failed: 400 INVALID_ARGUMENT. {'error': {'code': 400, 'message': 'API key not valid. Please pass a valid API key.', 'status': 'INVALID_ARGUMENT', 'details': [{'@type': 'type.googleapis.com/google.rpc.ErrorInfo', 'reason': 'API_KEY_INVALID', 'domain': 'googleapis.com', 'metadata': {'service': 'generativelanguage.googleapis.com'}}, {'@type': 'type.googleapis.com/google.rpc.LocalizedMessage', 'locale': 'en-US', 'message': 'API key not valid. Please pass a valid API key.'}]}}
+2026-02-07 14:11:08,798 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 8 nodes, 6 edges
+2026-02-07 14:11:08,802 - lightrag - INFO - [] Process 58425 KV load full_docs with 4 records
+2026-02-07 14:11:08,806 - lightrag - INFO - [] Process 58425 KV load text_chunks with 348 records
+2026-02-07 14:11:08,806 - lightrag - INFO - [] Process 58425 KV load full_entities with 2 records
+2026-02-07 14:11:08,807 - lightrag - INFO - [] Process 58425 KV load full_relations with 2 records
+2026-02-07 14:11:08,807 - lightrag - INFO - [] Process 58425 KV load entity_chunks with 8 records
+2026-02-07 14:11:08,807 - lightrag - INFO - [] Process 58425 KV load relation_chunks with 6 records
+2026-02-07 14:11:08,807 - lightrag - INFO - [] Process 58425 KV load llm_response_cache with 4 records
+2026-02-07 14:11:08,808 - lightrag - INFO - [] Process 58425 doc status load doc_status with 3 records
+2026-02-07 14:13:09,226 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:13:13,051 - lightrag - WARNING - low_level_keywords is empty
+2026-02-07 14:13:13,051 - lightrag - WARNING - high_level_keywords is empty
+2026-02-07 14:13:13,051 - lightrag - WARNING - Forced low_level_keywords to origin query: Hỏi về kiến thức nhi khoa sơ sinh ...
+2026-02-07 14:13:13,052 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:13:13,446 - lightrag - INFO - Query nodes: Hỏi về kiến thức nhi khoa sơ sinh ... (top_k:40, cosine:0.2)
+2026-02-07 14:13:13,830 - lightrag - INFO - Local query: 8 entites, 6 relations
+2026-02-07 14:13:13,830 - lightrag - INFO - Raw search results: 8 entities, 6 relations, 0 vector chunks
+2026-02-07 14:13:13,831 - lightrag - INFO - After truncation: 8 entities, 6 relations
+2026-02-07 14:13:13,831 - lightrag - INFO - Selecting 2 from 2 entity-related chunks by vector similarity
+2026-02-07 14:13:13,831 - lightrag - INFO - Find no additional relations-related chunks from 6 relations
+2026-02-07 14:13:13,831 - lightrag - INFO - Round-robin merged chunks: 2 -> 2 (deduplicated 0)
+2026-02-07 14:13:13,832 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-02-07 14:13:13,832 - lightrag - INFO - Final context: 8 entities, 6 relations, 2 chunks
+2026-02-07 14:13:13,832 - lightrag - INFO - Final chunks S+F/O: E2/1 E6/2
+2026-02-07 14:13:18,461 - lightrag - INFO -  == LLM cache == saving: hybrid:query:a630939fcf157684a3fb942d3df083e3
+2026-02-07 14:14:42,883 - lightrag - WARNING - Ignoring document ID (already exists): doc-f4e8801894f80bd4bee30c75369a2db6 (unknown_source)
+2026-02-07 14:14:42,883 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 14:14:42,884 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-02-07 14:14:42,884 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:14:42,884 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:14:42,884 - lightrag - INFO - Processing d-id: doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:15:00,492 - lightrag - INFO -  == LLM cache == saving: default:extract:86ab720ca6c482352184e21efd8ba357
+2026-02-07 14:15:17,903 - lightrag - INFO -  == LLM cache == saving: default:extract:2ce8fe521ec78f9d4ba96e314c46953c
+2026-02-07 14:15:17,904 - lightrag - INFO - Chunk 1 of 1 extracted 18 Ent + 18 Rel chunk-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:15:17,905 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:15:17,905 - lightrag - INFO - Phase 1: Processing 18 entities from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 14:15:17,905 - lightrag - INFO - Merged: `Phùng Nguyễn Thế Nguyên` | 1+1
+2026-02-07 14:15:17,907 - lightrag - INFO - Merged: `Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh` | 1+1
+2026-02-07 14:15:18,660 - lightrag - INFO - Merged: `2025` | 1+1
+2026-02-07 14:15:19,449 - lightrag - INFO - Phase 2: Processing 18 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 14:15:24,376 - lightrag - INFO - Phase 3: Updating final 18(18+0) entities and  18 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:15:24,376 - lightrag - INFO - Completed merging: 18 entities, 0 extra entities, 18 relations
+2026-02-07 14:15:24,386 - lightrag - INFO - [] Writing graph with 23 nodes, 24 edges
+2026-02-07 14:15:24,400 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:15:24,400 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:15:24,400 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:15:24,400 - lightrag - WARNING - Ignoring document ID (already exists): doc-d8eed2d250cad477e48fd32a65293c8c (unknown_source)
+2026-02-07 14:15:24,400 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 14:15:24,400 - lightrag - INFO - No documents to process
+2026-02-07 14:15:24,401 - lightrag - WARNING - Ignoring document ID (already exists): doc-703f3e7c27b77a2d6a19aac3cafab0fa (unknown_source)
+2026-02-07 14:15:24,401 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 14:15:24,401 - lightrag - INFO - No documents to process
+2026-02-07 14:15:24,404 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:15:24,405 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:15:24,405 - lightrag - INFO - Processing d-id: doc-db66102070700930005f853bb767dbf8
+2026-02-07 14:15:54,019 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 23 nodes, 24 edges
+2026-02-07 14:15:54,024 - lightrag - INFO - [] Process 62398 KV load full_docs with 5 records
+2026-02-07 14:15:54,028 - lightrag - INFO - [] Process 62398 KV load text_chunks with 348 records
+2026-02-07 14:15:54,029 - lightrag - INFO - [] Process 62398 KV load full_entities with 3 records
+2026-02-07 14:15:54,029 - lightrag - INFO - [] Process 62398 KV load full_relations with 3 records
+2026-02-07 14:15:54,030 - lightrag - INFO - [] Process 62398 KV load entity_chunks with 23 records
+2026-02-07 14:15:54,030 - lightrag - INFO - [] Process 62398 KV load relation_chunks with 24 records
+2026-02-07 14:15:54,031 - lightrag - INFO - [] Process 62398 KV load llm_response_cache with 7 records
+2026-02-07 14:15:54,031 - lightrag - INFO - [] Process 62398 doc status load doc_status with 4 records
+2026-02-07 14:16:11,096 - lightrag - WARNING - Ignoring document ID (already exists): doc-f4e8801894f80bd4bee30c75369a2db6 (unknown_source)
+2026-02-07 14:16:11,096 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 14:16:11,097 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-02-07 14:16:11,097 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:16:11,098 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:16:11,098 - lightrag - INFO - Processing d-id: doc-db66102070700930005f853bb767dbf8
+2026-02-07 14:16:11,103 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:16:11,852 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:16:36,388 - lightrag - WARNING - low_level_keywords is empty
+2026-02-07 14:16:36,389 - lightrag - WARNING - high_level_keywords is empty
+2026-02-07 14:16:36,389 - lightrag - WARNING - Forced low_level_keywords to origin query: Hỏi về kiến thức nhi khoa sơ sinh ...
+2026-02-07 14:16:36,725 - lightrag - INFO - Query nodes: Hỏi về kiến thức nhi khoa sơ sinh ... (top_k:40, cosine:0.2)
+2026-02-07 14:16:37,078 - lightrag - INFO - Local query: 23 entites, 24 relations
+2026-02-07 14:16:37,078 - lightrag - INFO - Raw search results: 23 entities, 24 relations, 0 vector chunks
+2026-02-07 14:16:37,080 - lightrag - INFO - After truncation: 23 entities, 24 relations
+2026-02-07 14:16:37,081 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-02-07 14:16:37,081 - lightrag - INFO - Find no additional relations-related chunks from 24 relations
+2026-02-07 14:16:37,081 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-02-07 14:16:37,082 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-02-07 14:16:37,083 - lightrag - INFO - Final context: 23 entities, 24 relations, 3 chunks
+2026-02-07 14:16:37,083 - lightrag - INFO - Final chunks S+F/O: E18/1 E2/2 E6/3
+2026-02-07 14:16:37,086 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-02-07 14:30:37,080 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 23 nodes, 24 edges
+2026-02-07 14:30:37,085 - lightrag - INFO - [] Process 64075 KV load full_docs with 5 records
+2026-02-07 14:30:37,089 - lightrag - INFO - [] Process 64075 KV load text_chunks with 348 records
+2026-02-07 14:30:37,089 - lightrag - INFO - [] Process 64075 KV load full_entities with 3 records
+2026-02-07 14:30:37,090 - lightrag - INFO - [] Process 64075 KV load full_relations with 3 records
+2026-02-07 14:30:37,091 - lightrag - INFO - [] Process 64075 KV load entity_chunks with 23 records
+2026-02-07 14:30:37,091 - lightrag - INFO - [] Process 64075 KV load relation_chunks with 24 records
+2026-02-07 14:30:37,092 - lightrag - INFO - [] Process 64075 KV load llm_response_cache with 7 records
+2026-02-07 14:30:37,092 - lightrag - INFO - [] Process 64075 doc status load doc_status with 4 records
+2026-02-07 14:30:42,758 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:30:58,334 - lightrag - ERROR - No JSON-like structure found in the LLM respond.
+2026-02-07 14:30:58,334 - lightrag - WARNING - low_level_keywords is empty
+2026-02-07 14:30:58,334 - lightrag - WARNING - high_level_keywords is empty
+2026-02-07 14:30:58,335 - lightrag - WARNING - Forced low_level_keywords to origin query: Hỏi về kiến thức nhi khoa sơ sinh ...
+2026-02-07 14:30:58,335 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:30:58,707 - lightrag - INFO - Query nodes: Hỏi về kiến thức nhi khoa sơ sinh ... (top_k:40, cosine:0.2)
+2026-02-07 14:30:59,081 - lightrag - INFO - Local query: 23 entites, 24 relations
+2026-02-07 14:30:59,081 - lightrag - INFO - Raw search results: 23 entities, 24 relations, 0 vector chunks
+2026-02-07 14:30:59,082 - lightrag - INFO - After truncation: 23 entities, 24 relations
+2026-02-07 14:30:59,083 - lightrag - INFO - Selecting 3 from 3 entity-related chunks by vector similarity
+2026-02-07 14:30:59,083 - lightrag - INFO - Find no additional relations-related chunks from 24 relations
+2026-02-07 14:30:59,083 - lightrag - INFO - Round-robin merged chunks: 3 -> 3 (deduplicated 0)
+2026-02-07 14:30:59,084 - lightrag - WARNING - Rerank is enabled but no rerank model is configured. Please set up a rerank model or set enable_rerank=False in query parameters.
+2026-02-07 14:30:59,085 - lightrag - INFO - Final context: 23 entities, 24 relations, 3 chunks
+2026-02-07 14:30:59,085 - lightrag - INFO - Final chunks S+F/O: E18/1 E2/2 E6/3
+2026-02-07 14:30:59,088 - lightrag - INFO -  == LLM cache == Query cache hit, using cached response as query result
+2026-02-07 14:33:32,077 - lightrag - INFO - [] Created new empty graph file: /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 14:33:32,078 - lightrag - INFO - [] Process 68515 KV load full_docs with 0 records
+2026-02-07 14:33:32,081 - lightrag - INFO - [] Process 68515 KV load text_chunks with 348 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 KV load full_entities with 0 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 KV load full_relations with 0 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 KV load entity_chunks with 0 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 KV load relation_chunks with 0 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 KV load llm_response_cache with 0 records
+2026-02-07 14:33:32,082 - lightrag - INFO - [] Process 68515 doc status load doc_status with 0 records
+2026-02-07 14:33:49,806 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:33:49,806 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:33:49,806 - lightrag - INFO - Processing d-id: doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:33:49,812 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 14:33:50,343 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 14:34:05,641 - lightrag - INFO -  == LLM cache == saving: default:extract:9edd365b8f8a95170fd26d025a200465
+2026-02-07 14:34:05,643 - lightrag - WARNING - chunk-f4e8801894f80bd4bee30c75369a2db6: Complete delimiter can not be found in extraction result
+2026-02-07 14:34:20,959 - lightrag - INFO -  == LLM cache == saving: default:extract:b3a30d046f567167fac48d18fc27f4fd
+2026-02-07 14:34:20,959 - lightrag - WARNING - chunk-f4e8801894f80bd4bee30c75369a2db6: Complete delimiter can not be found in extraction result
+2026-02-07 14:34:20,960 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:34:20,960 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:34:20,960 - lightrag - INFO - Phase 1: Processing 0 entities from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 14:34:20,960 - lightrag - INFO - Phase 2: Processing 0 relations from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 14:34:20,961 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 14:34:20,961 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 14:34:20,967 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 14:34:20,982 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:34:20,982 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:34:20,982 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:34:20,983 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:34:20,983 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:34:20,983 - lightrag - INFO - Processing d-id: doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:34:36,664 - lightrag - INFO -  == LLM cache == saving: default:extract:e4bcdf1f205280baf25e2cf7bd1d6e07
+2026-02-07 14:34:36,664 - lightrag - WARNING - chunk-d8eed2d250cad477e48fd32a65293c8c: Complete delimiter can not be found in extraction result
+2026-02-07 14:34:51,990 - lightrag - INFO -  == LLM cache == saving: default:extract:595a093efd7978f194c2cc9cf48a533a
+2026-02-07 14:34:51,991 - lightrag - WARNING - chunk-d8eed2d250cad477e48fd32a65293c8c: Complete delimiter can not be found in extraction result
+2026-02-07 14:34:51,992 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:34:51,992 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:34:51,993 - lightrag - INFO - Phase 1: Processing 0 entities from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 14:34:51,993 - lightrag - INFO - Phase 2: Processing 0 relations from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 14:34:51,993 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 14:34:51,994 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 14:34:52,005 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 14:34:52,006 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:34:52,006 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:34:52,006 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:34:52,008 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:34:52,009 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:34:52,009 - lightrag - INFO - Processing d-id: doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:35:07,874 - lightrag - INFO -  == LLM cache == saving: default:extract:86ab720ca6c482352184e21efd8ba357
+2026-02-07 14:35:07,875 - lightrag - WARNING - chunk-703f3e7c27b77a2d6a19aac3cafab0fa: Complete delimiter can not be found in extraction result
+2026-02-07 14:35:23,197 - lightrag - INFO -  == LLM cache == saving: default:extract:c6551b6bcf37f85f9ea2d9129cf76a82
+2026-02-07 14:35:23,197 - lightrag - WARNING - chunk-703f3e7c27b77a2d6a19aac3cafab0fa: Complete delimiter can not be found in extraction result
+2026-02-07 14:35:23,198 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:35:23,198 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:35:23,198 - lightrag - INFO - Phase 1: Processing 0 entities from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 14:35:23,198 - lightrag - INFO - Phase 2: Processing 0 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 14:35:23,199 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 14:35:23,199 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 14:35:23,206 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 14:35:23,206 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:35:23,206 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:35:23,206 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:35:23,208 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:35:23,208 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:35:23,208 - lightrag - INFO - Processing d-id: doc-db66102070700930005f853bb767dbf8
+2026-02-07 14:35:39,090 - lightrag - INFO -  == LLM cache == saving: default:extract:ffea89a22afabc7db3974e6b9fe7429d
+2026-02-07 14:35:39,090 - lightrag - WARNING - chunk-db66102070700930005f853bb767dbf8: Complete delimiter can not be found in extraction result
+2026-02-07 14:35:54,407 - lightrag - INFO -  == LLM cache == saving: default:extract:f37a361fbdf40d6176c7706ed5c7a0e7
+2026-02-07 14:35:54,407 - lightrag - WARNING - chunk-db66102070700930005f853bb767dbf8: Complete delimiter can not be found in extraction result
+2026-02-07 14:35:54,407 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-db66102070700930005f853bb767dbf8
+2026-02-07 14:35:54,408 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 14:35:54,408 - lightrag - INFO - Phase 1: Processing 0 entities from doc-db66102070700930005f853bb767dbf8 (async: 8)
+2026-02-07 14:35:54,408 - lightrag - INFO - Phase 2: Processing 0 relations from doc-db66102070700930005f853bb767dbf8 (async: 8)
+2026-02-07 14:35:54,408 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-db66102070700930005f853bb767dbf8
+2026-02-07 14:35:54,408 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 14:35:54,414 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 14:35:54,414 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 14:35:54,414 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 14:35:54,414 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 14:35:54,416 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 14:35:54,416 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 14:35:54,416 - lightrag - INFO - Processing d-id: doc-4df8bc4d3b93560c9dd63ef8359ed798
+2026-02-07 14:53:02,020 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 2 nodes, 1 edges
+2026-02-07 14:53:02,021 - lightrag - INFO - [] Process 75098 KV load full_docs with 5 records
+2026-02-07 14:53:02,025 - lightrag - INFO - [] Process 75098 KV load text_chunks with 348 records
+2026-02-07 14:53:02,025 - lightrag - INFO - [] Process 75098 KV load full_entities with 1 records
+2026-02-07 14:53:02,025 - lightrag - INFO - [] Process 75098 KV load full_relations with 1 records
+2026-02-07 14:53:02,026 - lightrag - INFO - [] Process 75098 KV load entity_chunks with 2 records
+2026-02-07 14:53:02,027 - lightrag - INFO - [] Process 75098 KV load relation_chunks with 1 records
+2026-02-07 14:53:02,027 - lightrag - INFO - [] Process 75098 KV load llm_response_cache with 2 records
+2026-02-07 14:53:02,027 - lightrag - INFO - [] Process 75098 doc status load doc_status with 2 records
+2026-02-07 14:53:48,271 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 2 nodes, 1 edges
+2026-02-07 14:53:48,272 - lightrag - INFO - [] Process 75558 KV load full_docs with 5 records
+2026-02-07 14:53:48,276 - lightrag - INFO - [] Process 75558 KV load text_chunks with 348 records
+2026-02-07 14:53:48,276 - lightrag - INFO - [] Process 75558 KV load full_entities with 1 records
+2026-02-07 14:53:48,276 - lightrag - INFO - [] Process 75558 KV load full_relations with 1 records
+2026-02-07 14:53:48,277 - lightrag - INFO - [] Process 75558 KV load entity_chunks with 2 records
+2026-02-07 14:53:48,277 - lightrag - INFO - [] Process 75558 KV load relation_chunks with 1 records
+2026-02-07 14:53:48,278 - lightrag - INFO - [] Process 75558 KV load llm_response_cache with 2 records
+2026-02-07 14:53:48,278 - lightrag - INFO - [] Process 75558 doc status load doc_status with 2 records
+2026-02-07 14:58:34,938 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 11826 nodes, 15628 edges
+2026-02-07 14:58:36,188 - lightrag - INFO - [] Process 77854 KV load full_docs with 5 records
+2026-02-07 14:58:36,192 - lightrag - INFO - [] Process 77854 KV load text_chunks with 348 records
+2026-02-07 14:58:36,194 - lightrag - INFO - [] Process 77854 KV load full_entities with 1 records
+2026-02-07 14:58:36,197 - lightrag - INFO - [] Process 77854 KV load full_relations with 1 records
+2026-02-07 14:58:36,208 - lightrag - INFO - [] Process 77854 KV load entity_chunks with 11826 records
+2026-02-07 14:58:36,225 - lightrag - INFO - [] Process 77854 KV load relation_chunks with 15628 records
+2026-02-07 14:58:36,271 - lightrag - INFO - [] Process 77854 KV load llm_response_cache with 830 records
+2026-02-07 14:58:36,272 - lightrag - INFO - [] Process 77854 doc status load doc_status with 1 records
+2026-02-07 15:02:11,642 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 15:02:27,049 - lightrag - ERROR - No JSON-like structure found in the LLM respond.
+2026-02-07 15:02:27,049 - lightrag - WARNING - low_level_keywords is empty
+2026-02-07 15:02:27,049 - lightrag - WARNING - high_level_keywords is empty
+2026-02-07 15:04:42,780 - lightrag - INFO - [] Created new empty graph file: /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 15:04:42,780 - lightrag - INFO - [] Process 79423 KV load full_docs with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load text_chunks with 348 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load full_entities with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load full_relations with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load entity_chunks with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load relation_chunks with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 KV load llm_response_cache with 0 records
+2026-02-07 15:04:42,784 - lightrag - INFO - [] Process 79423 doc status load doc_status with 0 records
+2026-02-07 15:04:54,130 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:04:54,131 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:04:54,131 - lightrag - INFO - Processing d-id: doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 15:04:54,137 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 15:04:54,626 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 15:05:09,864 - lightrag - INFO -  == LLM cache == saving: default:extract:9edd365b8f8a95170fd26d025a200465
+2026-02-07 15:05:09,864 - lightrag - WARNING - chunk-f4e8801894f80bd4bee30c75369a2db6: Complete delimiter can not be found in extraction result
+2026-02-07 15:05:25,091 - lightrag - INFO -  == LLM cache == saving: default:extract:b3a30d046f567167fac48d18fc27f4fd
+2026-02-07 15:05:25,091 - lightrag - WARNING - chunk-f4e8801894f80bd4bee30c75369a2db6: Complete delimiter can not be found in extraction result
+2026-02-07 15:05:25,091 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 15:05:25,092 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:05:25,092 - lightrag - INFO - Phase 1: Processing 0 entities from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 15:05:25,092 - lightrag - INFO - Phase 2: Processing 0 relations from doc-f4e8801894f80bd4bee30c75369a2db6 (async: 8)
+2026-02-07 15:05:25,092 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-f4e8801894f80bd4bee30c75369a2db6
+2026-02-07 15:05:25,092 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:05:25,104 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:05:25,121 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:05:25,121 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:05:25,121 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:05:25,123 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:05:25,123 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:05:25,123 - lightrag - INFO - Processing d-id: doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 15:05:40,683 - lightrag - INFO -  == LLM cache == saving: default:extract:e4bcdf1f205280baf25e2cf7bd1d6e07
+2026-02-07 15:05:40,683 - lightrag - WARNING - chunk-d8eed2d250cad477e48fd32a65293c8c: Complete delimiter can not be found in extraction result
+2026-02-07 15:05:55,917 - lightrag - INFO -  == LLM cache == saving: default:extract:595a093efd7978f194c2cc9cf48a533a
+2026-02-07 15:05:55,917 - lightrag - WARNING - chunk-d8eed2d250cad477e48fd32a65293c8c: Complete delimiter can not be found in extraction result
+2026-02-07 15:05:55,917 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 15:05:55,917 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:05:55,917 - lightrag - INFO - Phase 1: Processing 0 entities from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 15:05:55,917 - lightrag - INFO - Phase 2: Processing 0 relations from doc-d8eed2d250cad477e48fd32a65293c8c (async: 8)
+2026-02-07 15:05:55,918 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-d8eed2d250cad477e48fd32a65293c8c
+2026-02-07 15:05:55,918 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:05:55,923 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:05:55,924 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:05:55,924 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:05:55,924 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:05:55,925 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:05:55,925 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:05:55,925 - lightrag - INFO - Processing d-id: doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 15:06:11,740 - lightrag - INFO -  == LLM cache == saving: default:extract:86ab720ca6c482352184e21efd8ba357
+2026-02-07 15:06:11,740 - lightrag - WARNING - chunk-703f3e7c27b77a2d6a19aac3cafab0fa: Complete delimiter can not be found in extraction result
+2026-02-07 15:06:26,964 - lightrag - INFO -  == LLM cache == saving: default:extract:c6551b6bcf37f85f9ea2d9129cf76a82
+2026-02-07 15:06:26,965 - lightrag - WARNING - chunk-703f3e7c27b77a2d6a19aac3cafab0fa: Complete delimiter can not be found in extraction result
+2026-02-07 15:06:26,965 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 15:06:26,966 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:06:26,967 - lightrag - INFO - Phase 1: Processing 0 entities from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 15:06:26,967 - lightrag - INFO - Phase 2: Processing 0 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa (async: 8)
+2026-02-07 15:06:26,967 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-703f3e7c27b77a2d6a19aac3cafab0fa
+2026-02-07 15:06:26,967 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:06:26,982 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:06:26,982 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:06:26,983 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:06:26,983 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:06:26,985 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:06:26,986 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:06:26,986 - lightrag - INFO - Processing d-id: doc-db66102070700930005f853bb767dbf8
+2026-02-07 15:06:42,738 - lightrag - INFO -  == LLM cache == saving: default:extract:ffea89a22afabc7db3974e6b9fe7429d
+2026-02-07 15:06:42,738 - lightrag - WARNING - chunk-db66102070700930005f853bb767dbf8: Complete delimiter can not be found in extraction result
+2026-02-07 15:06:57,978 - lightrag - INFO -  == LLM cache == saving: default:extract:f37a361fbdf40d6176c7706ed5c7a0e7
+2026-02-07 15:06:57,978 - lightrag - WARNING - chunk-db66102070700930005f853bb767dbf8: Complete delimiter can not be found in extraction result
+2026-02-07 15:06:57,978 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-db66102070700930005f853bb767dbf8
+2026-02-07 15:06:57,979 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:06:57,979 - lightrag - INFO - Phase 1: Processing 0 entities from doc-db66102070700930005f853bb767dbf8 (async: 8)
+2026-02-07 15:06:57,979 - lightrag - INFO - Phase 2: Processing 0 relations from doc-db66102070700930005f853bb767dbf8 (async: 8)
+2026-02-07 15:06:57,979 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-db66102070700930005f853bb767dbf8
+2026-02-07 15:06:57,979 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:06:57,989 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:06:57,989 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:06:57,989 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:06:57,989 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:06:57,991 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:06:57,991 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:06:57,991 - lightrag - INFO - Processing d-id: doc-4df8bc4d3b93560c9dd63ef8359ed798
+2026-02-07 15:07:13,743 - lightrag - INFO -  == LLM cache == saving: default:extract:ed17e2fd54bb59b1830254ec953ba0a8
+2026-02-07 15:07:13,743 - lightrag - WARNING - chunk-4df8bc4d3b93560c9dd63ef8359ed798: Complete delimiter can not be found in extraction result
+2026-02-07 15:07:54,116 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 0 nodes, 0 edges
+2026-02-07 15:07:54,117 - lightrag - INFO - [] Process 80786 KV load full_docs with 5 records
+2026-02-07 15:07:54,121 - lightrag - INFO - [] Process 80786 KV load text_chunks with 348 records
+2026-02-07 15:07:54,121 - lightrag - INFO - [] Process 80786 KV load full_entities with 0 records
+2026-02-07 15:07:54,121 - lightrag - INFO - [] Process 80786 KV load full_relations with 0 records
+2026-02-07 15:07:54,121 - lightrag - INFO - [] Process 80786 KV load entity_chunks with 0 records
+2026-02-07 15:07:54,121 - lightrag - INFO - [] Process 80786 KV load relation_chunks with 0 records
+2026-02-07 15:07:54,122 - lightrag - INFO - [] Process 80786 KV load llm_response_cache with 8 records
+2026-02-07 15:07:54,122 - lightrag - INFO - [] Process 80786 doc status load doc_status with 5 records
+2026-02-07 15:08:11,936 - lightrag - WARNING - Ignoring document ID (already exists): doc-f4e8801894f80bd4bee30c75369a2db6 (unknown_source)
+2026-02-07 15:08:11,936 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 15:08:11,937 - lightrag - INFO - Reset 1 documents from PROCESSING/FAILED to PENDING status
+2026-02-07 15:08:11,938 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:08:11,938 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:08:11,938 - lightrag - INFO - Processing d-id: doc-4df8bc4d3b93560c9dd63ef8359ed798
+2026-02-07 15:08:11,950 - lightrag - INFO - Embedding func: 8 new workers initialized (Timeouts: Func: 30s, Worker: 60s, Health Check: 75s)
+2026-02-07 15:08:12,684 - lightrag - INFO - LLM func: 4 new workers initialized (Timeouts: Func: 180s, Worker: 360s, Health Check: 375s)
+2026-02-07 15:08:27,999 - lightrag - INFO -  == LLM cache == saving: default:extract:ed17e2fd54bb59b1830254ec953ba0a8
+2026-02-07 15:08:28,000 - lightrag - WARNING - chunk-4df8bc4d3b93560c9dd63ef8359ed798: Complete delimiter can not be found in extraction result
+2026-02-07 15:08:43,323 - lightrag - INFO -  == LLM cache == saving: default:extract:1b15621f9aa28e5f6760891bf3a25ddd
+2026-02-07 15:08:43,324 - lightrag - WARNING - chunk-4df8bc4d3b93560c9dd63ef8359ed798: Complete delimiter can not be found in extraction result
+2026-02-07 15:08:43,326 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-4df8bc4d3b93560c9dd63ef8359ed798
+2026-02-07 15:08:43,328 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:08:43,328 - lightrag - INFO - Phase 1: Processing 0 entities from doc-4df8bc4d3b93560c9dd63ef8359ed798 (async: 8)
+2026-02-07 15:08:43,328 - lightrag - INFO - Phase 2: Processing 0 relations from doc-4df8bc4d3b93560c9dd63ef8359ed798 (async: 8)
+2026-02-07 15:08:43,329 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-4df8bc4d3b93560c9dd63ef8359ed798
+2026-02-07 15:08:43,329 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:08:43,339 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:08:43,362 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:08:43,362 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:08:43,362 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:08:43,363 - lightrag - WARNING - Ignoring document ID (already exists): doc-d8eed2d250cad477e48fd32a65293c8c (unknown_source)
+2026-02-07 15:08:43,363 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 15:08:43,363 - lightrag - INFO - No documents to process
+2026-02-07 15:08:43,363 - lightrag - WARNING - Ignoring document ID (already exists): doc-703f3e7c27b77a2d6a19aac3cafab0fa (unknown_source)
+2026-02-07 15:08:43,363 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 15:08:43,364 - lightrag - INFO - No documents to process
+2026-02-07 15:08:43,364 - lightrag - WARNING - Ignoring document ID (already exists): doc-db66102070700930005f853bb767dbf8 (unknown_source)
+2026-02-07 15:08:43,364 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 15:08:43,364 - lightrag - INFO - No documents to process
+2026-02-07 15:08:43,364 - lightrag - WARNING - Ignoring document ID (already exists): doc-4df8bc4d3b93560c9dd63ef8359ed798 (unknown_source)
+2026-02-07 15:08:43,364 - lightrag - WARNING - No new unique documents were found.
+2026-02-07 15:08:43,365 - lightrag - INFO - No documents to process
+2026-02-07 15:08:43,366 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:08:43,366 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:08:43,366 - lightrag - INFO - Processing d-id: doc-59a6cbddf993b81a42465154170ed422
+2026-02-07 15:08:59,259 - lightrag - INFO -  == LLM cache == saving: default:extract:a98da16f4f3a73df650f88f1abb2dd42
+2026-02-07 15:08:59,259 - lightrag - WARNING - chunk-59a6cbddf993b81a42465154170ed422: Complete delimiter can not be found in extraction result
+2026-02-07 15:09:14,548 - lightrag - INFO -  == LLM cache == saving: default:extract:b2e801945e097c4da1a35848ae5dfec9
+2026-02-07 15:09:14,549 - lightrag - WARNING - chunk-59a6cbddf993b81a42465154170ed422: Complete delimiter can not be found in extraction result
+2026-02-07 15:09:14,550 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-59a6cbddf993b81a42465154170ed422
+2026-02-07 15:09:14,551 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:09:14,551 - lightrag - INFO - Phase 1: Processing 0 entities from doc-59a6cbddf993b81a42465154170ed422 (async: 8)
+2026-02-07 15:09:14,551 - lightrag - INFO - Phase 2: Processing 0 relations from doc-59a6cbddf993b81a42465154170ed422 (async: 8)
+2026-02-07 15:09:14,551 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-59a6cbddf993b81a42465154170ed422
+2026-02-07 15:09:14,552 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:09:14,565 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:09:14,565 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:09:14,565 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:09:14,565 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:09:14,567 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:09:14,567 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:09:14,567 - lightrag - INFO - Processing d-id: doc-29715627ddb49c46e7c3461e0d78df80
+2026-02-07 15:09:30,439 - lightrag - INFO -  == LLM cache == saving: default:extract:900dd26cd9ffc1537ca85e6a99fd0886
+2026-02-07 15:09:30,440 - lightrag - WARNING - chunk-29715627ddb49c46e7c3461e0d78df80: Complete delimiter can not be found in extraction result
+2026-02-07 15:09:45,742 - lightrag - INFO -  == LLM cache == saving: default:extract:cb90f0968abde7ffa948481ce35fc8dc
+2026-02-07 15:09:45,742 - lightrag - WARNING - chunk-29715627ddb49c46e7c3461e0d78df80: Complete delimiter can not be found in extraction result
+2026-02-07 15:09:45,742 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-29715627ddb49c46e7c3461e0d78df80
+2026-02-07 15:09:45,743 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:09:45,743 - lightrag - INFO - Phase 1: Processing 0 entities from doc-29715627ddb49c46e7c3461e0d78df80 (async: 8)
+2026-02-07 15:09:45,743 - lightrag - INFO - Phase 2: Processing 0 relations from doc-29715627ddb49c46e7c3461e0d78df80 (async: 8)
+2026-02-07 15:09:45,743 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-29715627ddb49c46e7c3461e0d78df80
+2026-02-07 15:09:45,743 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:09:45,749 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:09:45,749 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:09:45,749 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:09:45,750 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:09:45,751 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:09:45,751 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:09:45,751 - lightrag - INFO - Processing d-id: doc-904c46142f7b8145ed9d010c59ee58b6
+2026-02-07 15:10:01,414 - lightrag - INFO -  == LLM cache == saving: default:extract:b7f40e1e5d134e64444ea048e31c96aa
+2026-02-07 15:10:01,415 - lightrag - WARNING - chunk-904c46142f7b8145ed9d010c59ee58b6: Complete delimiter can not be found in extraction result
+2026-02-07 15:10:16,873 - lightrag - INFO -  == LLM cache == saving: default:extract:f5e6288582f8a708baa92d9e074e592e
+2026-02-07 15:10:16,873 - lightrag - WARNING - chunk-904c46142f7b8145ed9d010c59ee58b6: Complete delimiter can not be found in extraction result
+2026-02-07 15:10:16,873 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-904c46142f7b8145ed9d010c59ee58b6
+2026-02-07 15:10:16,874 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:10:16,874 - lightrag - INFO - Phase 1: Processing 0 entities from doc-904c46142f7b8145ed9d010c59ee58b6 (async: 8)
+2026-02-07 15:10:16,874 - lightrag - INFO - Phase 2: Processing 0 relations from doc-904c46142f7b8145ed9d010c59ee58b6 (async: 8)
+2026-02-07 15:10:16,874 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-904c46142f7b8145ed9d010c59ee58b6
+2026-02-07 15:10:16,874 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:10:16,884 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:10:16,884 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:10:16,884 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:10:16,885 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:10:16,887 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:10:16,887 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:10:16,887 - lightrag - INFO - Processing d-id: doc-5ace322dbde770af9b642653af654fa0
+2026-02-07 15:10:32,740 - lightrag - INFO -  == LLM cache == saving: default:extract:f09337acb09179302dc386093ed3bdac
+2026-02-07 15:10:32,741 - lightrag - WARNING - chunk-5ace322dbde770af9b642653af654fa0: Complete delimiter can not be found in extraction result
+2026-02-07 15:10:48,250 - lightrag - INFO -  == LLM cache == saving: default:extract:3276004ddaf86e0cd31a636371072338
+2026-02-07 15:10:48,252 - lightrag - WARNING - chunk-5ace322dbde770af9b642653af654fa0: Complete delimiter can not be found in extraction result
+2026-02-07 15:10:48,252 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-5ace322dbde770af9b642653af654fa0
+2026-02-07 15:10:48,252 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:10:48,252 - lightrag - INFO - Phase 1: Processing 0 entities from doc-5ace322dbde770af9b642653af654fa0 (async: 8)
+2026-02-07 15:10:48,252 - lightrag - INFO - Phase 2: Processing 0 relations from doc-5ace322dbde770af9b642653af654fa0 (async: 8)
+2026-02-07 15:10:48,253 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-5ace322dbde770af9b642653af654fa0
+2026-02-07 15:10:48,253 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:10:48,264 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:10:48,265 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:10:48,265 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:10:48,265 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:10:48,267 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:10:48,267 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:10:48,267 - lightrag - INFO - Processing d-id: doc-77d1897c741dd06ca482fc40a8a3a714
+2026-02-07 15:11:04,139 - lightrag - INFO -  == LLM cache == saving: default:extract:14a5328770cccf0ba6294a1ce5f431be
+2026-02-07 15:11:04,139 - lightrag - WARNING - chunk-77d1897c741dd06ca482fc40a8a3a714: Complete delimiter can not be found in extraction result
+2026-02-07 15:11:19,416 - lightrag - INFO -  == LLM cache == saving: default:extract:c1240658cf15d9f548559ab2e78510e8
+2026-02-07 15:11:19,417 - lightrag - WARNING - chunk-77d1897c741dd06ca482fc40a8a3a714: Complete delimiter can not be found in extraction result
+2026-02-07 15:11:19,417 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-77d1897c741dd06ca482fc40a8a3a714
+2026-02-07 15:11:19,418 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:11:19,418 - lightrag - INFO - Phase 1: Processing 0 entities from doc-77d1897c741dd06ca482fc40a8a3a714 (async: 8)
+2026-02-07 15:11:19,418 - lightrag - INFO - Phase 2: Processing 0 relations from doc-77d1897c741dd06ca482fc40a8a3a714 (async: 8)
+2026-02-07 15:11:19,418 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-77d1897c741dd06ca482fc40a8a3a714
+2026-02-07 15:11:19,418 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:11:19,438 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:11:19,438 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:11:19,438 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:11:19,439 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:11:19,440 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:11:19,440 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:11:19,440 - lightrag - INFO - Processing d-id: doc-4cbe10a1cff88eaee72a4063a8adca35
+2026-02-07 15:11:35,287 - lightrag - INFO -  == LLM cache == saving: default:extract:c87a997b95c86a662b8a608a6de4559a
+2026-02-07 15:11:35,288 - lightrag - WARNING - chunk-4cbe10a1cff88eaee72a4063a8adca35: Complete delimiter can not be found in extraction result
+2026-02-07 15:11:50,612 - lightrag - INFO -  == LLM cache == saving: default:extract:e2e714cd48d2729845b10c4e293be14c
+2026-02-07 15:11:50,613 - lightrag - WARNING - chunk-4cbe10a1cff88eaee72a4063a8adca35: Complete delimiter can not be found in extraction result
+2026-02-07 15:11:50,613 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-4cbe10a1cff88eaee72a4063a8adca35
+2026-02-07 15:11:50,614 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:11:50,614 - lightrag - INFO - Phase 1: Processing 0 entities from doc-4cbe10a1cff88eaee72a4063a8adca35 (async: 8)
+2026-02-07 15:11:50,614 - lightrag - INFO - Phase 2: Processing 0 relations from doc-4cbe10a1cff88eaee72a4063a8adca35 (async: 8)
+2026-02-07 15:11:50,614 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-4cbe10a1cff88eaee72a4063a8adca35
+2026-02-07 15:11:50,614 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:11:50,624 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:11:50,625 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:11:50,625 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:11:50,625 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:11:50,627 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:11:50,627 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:11:50,627 - lightrag - INFO - Processing d-id: doc-8e86330170f24b8fc5bf4a954cdb01c1
+2026-02-07 15:12:06,474 - lightrag - INFO -  == LLM cache == saving: default:extract:44d61ef9de63adf4e8dace1d0922812e
+2026-02-07 15:12:06,475 - lightrag - WARNING - chunk-8e86330170f24b8fc5bf4a954cdb01c1: Complete delimiter can not be found in extraction result
+2026-02-07 15:12:21,765 - lightrag - INFO -  == LLM cache == saving: default:extract:31a1134ae5b961886023fb00ff7bff68
+2026-02-07 15:12:21,765 - lightrag - WARNING - chunk-8e86330170f24b8fc5bf4a954cdb01c1: Complete delimiter can not be found in extraction result
+2026-02-07 15:12:21,765 - lightrag - INFO - Chunk 1 of 1 extracted 0 Ent + 0 Rel chunk-8e86330170f24b8fc5bf4a954cdb01c1
+2026-02-07 15:12:21,766 - lightrag - INFO - Merging stage 1/1: unknown_source
+2026-02-07 15:12:21,766 - lightrag - INFO - Phase 1: Processing 0 entities from doc-8e86330170f24b8fc5bf4a954cdb01c1 (async: 8)
+2026-02-07 15:12:21,766 - lightrag - INFO - Phase 2: Processing 0 relations from doc-8e86330170f24b8fc5bf4a954cdb01c1 (async: 8)
+2026-02-07 15:12:21,766 - lightrag - INFO - Phase 3: Updating final 0(0+0) entities and  0 relations from doc-8e86330170f24b8fc5bf4a954cdb01c1
+2026-02-07 15:12:21,766 - lightrag - INFO - Completed merging: 0 entities, 0 extra entities, 0 relations
+2026-02-07 15:12:21,775 - lightrag - INFO - [] Writing graph with 0 nodes, 0 edges
+2026-02-07 15:12:21,775 - lightrag - INFO - In memory DB persist to disk
+2026-02-07 15:12:21,776 - lightrag - INFO - Completed processing file 1/1: unknown_source
+2026-02-07 15:12:21,776 - lightrag - INFO - Enqueued document processing pipeline stopped
+2026-02-07 15:12:21,778 - lightrag - INFO - Processing 1 document(s)
+2026-02-07 15:12:21,778 - lightrag - INFO - Extracting stage 1/1: unknown_source
+2026-02-07 15:12:21,778 - lightrag - INFO - Processing d-id: doc-01591cc6b3916de705d8ffde24d1523f
+2026-02-07 17:10:41,977 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 23 nodes, 24 edges
+2026-02-07 17:10:41,982 - lightrag - INFO - [] Process 2585 KV load full_docs with 5 records
+2026-02-07 17:11:12,198 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 23 nodes, 24 edges
+2026-02-07 17:11:12,203 - lightrag - INFO - [] Process 2945 KV load full_docs with 5 records
+2026-02-07 17:11:32,529 - lightrag - INFO - [] Loaded graph from /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml with 23 nodes, 24 edges
+2026-02-07 17:11:32,532 - lightrag - INFO - [] Process 3244 KV load full_docs with 5 records
+2026-02-07 17:11:32,537 - lightrag - INFO - [] Process 3244 KV load text_chunks with 348 records
+2026-02-07 17:11:32,538 - lightrag - INFO - [] Process 3244 KV load full_entities with 3 records
+2026-02-07 17:11:32,538 - lightrag - INFO - [] Process 3244 KV load full_relations with 3 records
+2026-02-07 17:11:32,539 - lightrag - INFO - [] Process 3244 KV load entity_chunks with 23 records
+2026-02-07 17:11:32,539 - lightrag - INFO - [] Process 3244 KV load relation_chunks with 24 records
+2026-02-07 17:11:32,540 - lightrag - INFO - [] Process 3244 KV load llm_response_cache with 7 records
+2026-02-07 17:11:32,540 - lightrag - INFO - [] Process 3244 doc status load doc_status with 4 records
+2026-02-07 17:31:07,122 - lightrag - INFO - Creating working directory /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage
+2026-02-07 17:31:07,320 - lightrag - INFO - [] Created new empty graph file: /Users/tinngo/Documents/Code/UI-for-HUY-main/Preprocess_Data-main/rag_storage/graph_chunk_entity_relation.graphml
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load full_docs with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load text_chunks with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load full_entities with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load full_relations with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load entity_chunks with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load relation_chunks with 0 records
+2026-02-07 17:31:07,321 - lightrag - INFO - [] Process 18388 KV load llm_response_cache with 0 records
+2026-02-07 17:31:07,322 - lightrag - INFO - [] Process 18388 doc status load doc_status with 0 records

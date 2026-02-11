@@ -1,0 +1,209 @@
+{
+  "Nhi Khoa": {
+    "chunk_ids": [
+      "chunk-f4e8801894f80bd4bee30c75369a2db6"
+    ],
+    "count": 1,
+    "create_time": 1770447661,
+    "update_time": 1770447661,
+    "_id": "Nhi Khoa"
+  },
+  "Tập VI": {
+    "chunk_ids": [
+      "chunk-f4e8801894f80bd4bee30c75369a2db6"
+    ],
+    "count": 1,
+    "create_time": 1770447661,
+    "update_time": 1770447661,
+    "_id": "Tập VI"
+  },
+  "Đại Học Y Dược Thành Phố Hồ Chí Minh": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c"
+    ],
+    "count": 1,
+    "create_time": 1770447683,
+    "update_time": 1770447683,
+    "_id": "Đại Học Y Dược Thành Phố Hồ Chí Minh"
+  },
+  "Bộ Môn Nhi": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c"
+    ],
+    "count": 1,
+    "create_time": 1770447683,
+    "update_time": 1770447683,
+    "_id": "Bộ Môn Nhi"
+  },
+  "Nhi Khoa Tập VI": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c"
+    ],
+    "count": 1,
+    "create_time": 1770447683,
+    "update_time": 1770447683,
+    "_id": "Nhi Khoa Tập VI"
+  },
+  "Phùng Nguyễn Thế Nguyên": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c",
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 2,
+    "update_time": 1770448517,
+    "_id": "Phùng Nguyễn Thế Nguyên"
+  },
+  "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c",
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 2,
+    "update_time": 1770448517,
+    "_id": "Nhà Xuất Bản Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+  },
+  "2025": {
+    "chunk_ids": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c",
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 2,
+    "update_time": 1770448518,
+    "_id": "2025"
+  },
+  "Nhi Khoa - Tập VI": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "Nhi Khoa - Tập VI"
+  },
+  "Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "Bộ Môn Nhi - Đại Học Y Dược Thành Phố Hồ Chí Minh"
+  },
+  "TP Thủ Đức, TP. HCM": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "TP Thủ Đức, TP. HCM"
+  },
+  "Đại Học Quốc Gia Thành Phố Hồ Chí Minh": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "Đại Học Quốc Gia Thành Phố Hồ Chí Minh"
+  },
+  "Nguyễn Minh Tâm": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "Nguyễn Minh Tâm"
+  },
+  "Nguyễn Thị Ngọc Anh": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448517,
+    "update_time": 1770448517,
+    "_id": "Nguyễn Thị Ngọc Anh"
+  },
+  "Viên Khuyên": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Viên Khuyên"
+  },
+  "Giang Hương": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Giang Hương"
+  },
+  "Công Ty TNHH Cơ Khí In Ấn Pháp": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Công Ty TNHH Cơ Khí In Ấn Pháp"
+  },
+  "Phường An Hội Tây, TP. HCM": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Phường An Hội Tây, TP. HCM"
+  },
+  "Luật Xuất Bản Việt Nam": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Luật Xuất Bản Việt Nam"
+  },
+  "Luật Sở Hữu Trí Tuệ Việt Nam": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "Luật Sở Hữu Trí Tuệ Việt Nam"
+  },
+  "ISBN: 978-632-608-162-6": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "ISBN: 978-632-608-162-6"
+  },
+  "2000 Cuốn": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "2000 Cuốn"
+  },
+  "19.5 x 26 cm": {
+    "chunk_ids": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "count": 1,
+    "create_time": 1770448518,
+    "update_time": 1770448518,
+    "_id": "19.5 x 26 cm"
+  }
+}

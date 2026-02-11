@@ -1,0 +1,69 @@
+{
+  "doc-f4e8801894f80bd4bee30c75369a2db6": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-f4e8801894f80bd4bee30c75369a2db6"
+    ],
+    "content_summary": "# NHI KHOA \n\n\nTập VI \n\n\n★★★★★★ \n\n![](images/0.jpg)",
+    "content_length": 50,
+    "created_at": "2026-02-07T07:00:51.407741+00:00",
+    "updated_at": "2026-02-07T07:01:02.453101+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_140051_0d02c938",
+    "metadata": {
+      "processing_start_time": 1770447651,
+      "processing_end_time": 1770447662
+    }
+  },
+  "doc-d8eed2d250cad477e48fd32a65293c8c": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-d8eed2d250cad477e48fd32a65293c8c"
+    ],
+    "content_summary": "# ĐẠI HỌC Y DƯỢC THÀNH PHỐ HỒ CHÍ MINH BỘ MÔN NHI \n\n\n# NHI KHOA \n\n\nTập VI ★★★★★ \n\n\nChủ biên: PGS.TS.BS. Phùng Nguyễn Thế Nguyên \n\n\nNHÀ XUẤT BẢN  ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH – 2025",
+    "content_length": 190,
+    "created_at": "2026-02-07T07:01:02.482556+00:00",
+    "updated_at": "2026-02-07T07:01:25.876183+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_140102_f34aae9d",
+    "metadata": {
+      "processing_start_time": 1770447662,
+      "processing_end_time": 1770447685
+    }
+  },
+  "doc-703f3e7c27b77a2d6a19aac3cafab0fa": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-703f3e7c27b77a2d6a19aac3cafab0fa"
+    ],
+    "content_summary": "# Nhi Khoa - Tập VI \n\n\n# Chủ biên: PGS.TS.BS. Phùng Nguyễn Thế Nguyên Bộ môn Nhi - Đại học Y Dược Thành phố Hồ Chí Minh \n\n\n# NHÀ XUẤT BẢN ĐẠI HỌC QUỐC GIA THÀNH PHỐ HỒ CHÍ MINH \n\n\nPhòng 501, Nhà Điều hành ĐHQG-HCM, P. Linh Trung, TP Thủ Đức, TP. HCM....",
+    "content_length": 1112,
+    "created_at": "2026-02-07T07:01:25.891287+00:00",
+    "updated_at": "2026-02-07T07:15:24.376432+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_140125_8e68fa90",
+    "metadata": {
+      "processing_start_time": 1770448482,
+      "processing_end_time": 1770448524
+    }
+  },
+  "doc-db66102070700930005f853bb767dbf8": {
+    "status": "processing",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-db66102070700930005f853bb767dbf8"
+    ],
+    "content_summary": "CHÚ BIÊN \n\n\nPGS.TS.BS. Phùng Nguyễn Thế Nguyên \n\n\nHiệu trưởng Trường Y, Trường Bộ môn Nhi, Đại học Y Dược TP. HCM \n\n\nTrường Khoa Hồi sức Nhiễm, Bệnh viện Nhi Đồng 1 \n\n\nTHAM GIA BIÊN SOẠN \n\n\nGS.TS.BS. Trần Diệp Tuấn \n\n\nChủ tịch Hội đồng Trường, Đại họ...",
+    "content_length": 1210,
+    "created_at": "2026-02-07T07:15:24.401605+00:00",
+    "updated_at": "2026-02-07T07:16:11.103418+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_141524_45d61297",
+    "metadata": {
+      "processing_start_time": 1770448571
+    }
+  }
+}

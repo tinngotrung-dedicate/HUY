@@ -1,0 +1,137 @@
+{
+  "LightRAG": {
+    "chunk_ids": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "count": 1,
+    "create_time": 1770446422,
+    "update_time": 1770446422,
+    "_id": "LightRAG"
+  },
+  "RAG System": {
+    "chunk_ids": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "count": 1,
+    "create_time": 1770446422,
+    "update_time": 1770446422,
+    "_id": "RAG System"
+  },
+  "Gemini": {
+    "chunk_ids": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "count": 1,
+    "create_time": 1770446422,
+    "update_time": 1770446422,
+    "_id": "Gemini"
+  },
+  "Physiological Neonatal Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Physiological Neonatal Jaundice"
+  },
+  "Newborn": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Newborn"
+  },
+  "24 Hours": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "24 Hours"
+  },
+  "Days 3-5": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Days 3-5"
+  },
+  "7-10 Days": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "7-10 Days"
+  },
+  "Pathological Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Pathological Jaundice"
+  },
+  "More Than 14 Days": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "More Than 14 Days"
+  },
+  "Dangerous Signs": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Dangerous Signs"
+  },
+  "Poor Feeding": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Poor Feeding"
+  },
+  "Fever": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Fever"
+  },
+  "Lethargy": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Lethargy"
+  },
+  "Convulsions": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Convulsions"
+  }
+}

@@ -1,0 +1,119 @@
+{
+  "LightRAG<SEP>RAG System": {
+    "chunk_ids": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "count": 1,
+    "create_time": 1770446423,
+    "update_time": 1770446423,
+    "_id": "LightRAG<SEP>RAG System"
+  },
+  "Gemini<SEP>LightRAG": {
+    "chunk_ids": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "count": 1,
+    "create_time": 1770446423,
+    "update_time": 1770446423,
+    "_id": "Gemini<SEP>LightRAG"
+  },
+  "Newborn<SEP>Physiological Neonatal Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "Newborn<SEP>Physiological Neonatal Jaundice"
+  },
+  "More Than 14 Days<SEP>Pathological Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446712,
+    "update_time": 1770446712,
+    "_id": "More Than 14 Days<SEP>Pathological Jaundice"
+  },
+  "24 Hours<SEP>Physiological Neonatal Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "24 Hours<SEP>Physiological Neonatal Jaundice"
+  },
+  "Dangerous Signs<SEP>Pathological Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "Dangerous Signs<SEP>Pathological Jaundice"
+  },
+  "Days 3-5<SEP>Physiological Neonatal Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "Days 3-5<SEP>Physiological Neonatal Jaundice"
+  },
+  "24 Hours<SEP>Pathological Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "24 Hours<SEP>Pathological Jaundice"
+  },
+  "Dangerous Signs<SEP>Poor Feeding": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "Dangerous Signs<SEP>Poor Feeding"
+  },
+  "7-10 Days<SEP>Physiological Neonatal Jaundice": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "7-10 Days<SEP>Physiological Neonatal Jaundice"
+  },
+  "Dangerous Signs<SEP>Fever": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446713,
+    "update_time": 1770446713,
+    "_id": "Dangerous Signs<SEP>Fever"
+  },
+  "Dangerous Signs<SEP>Lethargy": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446714,
+    "update_time": 1770446714,
+    "_id": "Dangerous Signs<SEP>Lethargy"
+  },
+  "Convulsions<SEP>Dangerous Signs": {
+    "chunk_ids": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "count": 1,
+    "create_time": 1770446714,
+    "update_time": 1770446714,
+    "_id": "Convulsions<SEP>Dangerous Signs"
+  }
+}

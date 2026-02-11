@@ -1,0 +1,36 @@
+{
+  "doc-327f994c97be3631dba573d44cdd3cdb": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-327f994c97be3631dba573d44cdd3cdb"
+    ],
+    "content_summary": "Tài liệu mẫu: LightRAG là hệ thống RAG dùng Gemini để trả lời...",
+    "content_length": 64,
+    "created_at": "2026-02-07T06:38:35.262260+00:00",
+    "updated_at": "2026-02-07T06:40:23.964015+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_133835_f2ae357a",
+    "metadata": {
+      "processing_start_time": 1770446401,
+      "processing_end_time": 1770446423
+    }
+  },
+  "doc-243b664816d70ae132c3e39dddbb8148": {
+    "status": "processed",
+    "chunks_count": 1,
+    "chunks_list": [
+      "chunk-243b664816d70ae132c3e39dddbb8148"
+    ],
+    "content_summary": "Trẻ sơ sinh vàng da sinh lý thường xuất hiện sau 24 giờ, đạt đỉnh ngày 3-5 và tự hết sau 7-10 ngày. Nếu vàng da trước 24 giờ hoặc kéo dài >14 ngày, cần đánh giá bệnh lý. Dấu hiệu nguy hiểm: bú kém, sốt, ngủ li bì, co giật.",
+    "content_length": 222,
+    "created_at": "2026-02-07T06:44:39.149389+00:00",
+    "updated_at": "2026-02-07T06:45:14.892795+00:00",
+    "file_path": "unknown_source",
+    "track_id": "insert_20260207_134439_aa2b81a5",
+    "metadata": {
+      "processing_start_time": 1770446679,
+      "processing_end_time": 1770446714
+    }
+  }
+}

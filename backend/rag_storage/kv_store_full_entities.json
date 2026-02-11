@@ -1,0 +1,33 @@
+{
+  "doc-327f994c97be3631dba573d44cdd3cdb": {
+    "entity_names": [
+      "Gemini",
+      "RAG System",
+      "LightRAG"
+    ],
+    "count": 3,
+    "create_time": 1770446423,
+    "update_time": 1770446423,
+    "_id": "doc-327f994c97be3631dba573d44cdd3cdb"
+  },
+  "doc-243b664816d70ae132c3e39dddbb8148": {
+    "entity_names": [
+      "7-10 Days",
+      "24 Hours",
+      "Fever",
+      "More Than 14 Days",
+      "Pathological Jaundice",
+      "Days 3-5",
+      "Physiological Neonatal Jaundice",
+      "Lethargy",
+      "Dangerous Signs",
+      "Poor Feeding",
+      "Newborn",
+      "Convulsions"
+    ],
+    "count": 12,
+    "create_time": 1770446714,
+    "update_time": 1770446714,
+    "_id": "doc-243b664816d70ae132c3e39dddbb8148"
+  }
+}

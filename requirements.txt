@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic[email]
+python-dotenv
+sqlalchemy
+requests
+python-multipart
+pyotp
+numpy
+lightrag-hku[api]
+eel
