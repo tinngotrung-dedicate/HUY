@@ -8,9 +8,9 @@ import { isTestEnvironment } from "../constants";
 import { createLocalRagModel } from "./local-rag-model";
 
 const THINKING_SUFFIX_REGEX = /-thinking$/;
+const gatewayKey = process.env.AI_GATEWAY_API_KEY ?? "";
 const gatewayConfigured =
-  Boolean(process.env.AI_GATEWAY_API_KEY) &&
-  !["****", "changeme"].includes(process.env.AI_GATEWAY_API_KEY);
+  Boolean(gatewayKey) && !["****", "changeme"].includes(gatewayKey);
 
 export const myProvider = isTestEnvironment
   ? (() => {

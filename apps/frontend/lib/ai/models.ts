@@ -3,9 +3,9 @@ export const DEFAULT_CHAT_MODEL = process.env.LOCAL_RAG_URL
   ? "local-rag"
   : "google/gemini-2.5-flash-lite";
 
+const gatewayKey = process.env.AI_GATEWAY_API_KEY ?? "";
 const gatewayConfigured =
-  Boolean(process.env.AI_GATEWAY_API_KEY) &&
-  !["****", "changeme"].includes(process.env.AI_GATEWAY_API_KEY);
+  Boolean(gatewayKey) && !["****", "changeme"].includes(gatewayKey);
 
 export type ChatModel = {
   id: string;
