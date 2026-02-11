@@ -76,7 +76,7 @@ export default function ChatPage() {
   const fileInputRef = useRef<HTMLInputElement | null>(null);
   const chatWrapRef = useRef<HTMLDivElement | null>(null);
   const messagesEndRef = useRef<HTMLDivElement | null>(null);
-  const messageRefs = useRef<Map<string, HTMLDivElement>>(new Map());
+  const messageRefs = useRef<Map<string, HTMLElement>>(new Map());
   const stopRef = useRef(false);
   const renameInputRef = useRef<HTMLInputElement | null>(null);
 
