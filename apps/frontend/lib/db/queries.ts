@@ -209,7 +209,7 @@ export async function getChatsByUserId({
     let filteredChats: Chat[] = [];
 
     if (startingAfter) {
-      const [selectedChat] = await db
+      const [selectedChat] = await dbInstance
         .select()
         .from(chat)
         .where(eq(chat.id, startingAfter))
@@ -224,7 +224,7 @@ export async function getChatsByUserId({
 
       filteredChats = await query(gt(chat.createdAt, selectedChat.createdAt));
     } else if (endingBefore) {
-      const [selectedChat] = await db
+      const [selectedChat] = await dbInstance
         .select()
         .from(chat)
         .where(eq(chat.id, endingBefore))
