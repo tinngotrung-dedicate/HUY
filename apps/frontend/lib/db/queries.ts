@@ -81,8 +81,8 @@ export async function createUser(email: string, password: string) {
 }
 
 export async function createGuestUser() {
-  // Fallback: nếu chưa cấu hình POSTGRES_URL thì tạo guest user tạm thời (không ghi DB)
-  if (!process.env.POSTGRES_URL) {
+  // Fallback: nếu chưa cấu hình POSTGRES_URL hoặc db chưa sẵn sàng thì tạo guest user tạm thời (không ghi DB)
+  if (!process.env.POSTGRES_URL || !db) {
     const tempId = `local-guest-${Date.now()}`;
     return [{ id: tempId, email: "guest@local" }];
   }
