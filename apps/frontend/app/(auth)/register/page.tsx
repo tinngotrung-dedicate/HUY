@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { useSession } from "next-auth/react";
 import { useActionState, useEffect, useState } from "react";
 import { AuthForm } from "@/components/auth-form";
 import { SubmitButton } from "@/components/submit-button";
@@ -22,9 +21,7 @@ export default function Page() {
     }
   );
 
-  const { update: updateSession } = useSession();
-
-  // biome-ignore lint/correctness/useExhaustiveDependencies: router and updateSession are stable refs
+  // biome-ignore lint/correctness/useExhaustiveDependencies: router is a stable ref
   useEffect(() => {
     if (state.status === "user_exists") {
       toast({ type: "error", description: "Tai khoan da ton tai!" });
@@ -39,10 +36,9 @@ export default function Page() {
       toast({ type: "success", description: "Tao tai khoan thanh cong!" });
 
       setIsSuccessful(true);
-      updateSession();
       router.refresh();
     }
-  }, [state.status]);
+  }, [state.status, router]);
 
   const handleSubmit = (formData: FormData) => {
     setEmail(formData.get("email") as string);
