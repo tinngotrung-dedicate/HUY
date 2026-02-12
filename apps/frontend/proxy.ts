@@ -3,7 +3,9 @@ import { getToken } from "next-auth/jwt";
 import { guestRegex, isDevelopmentEnvironment } from "./lib/constants";
 
 export async function proxy(request: NextRequest) {
-  if (process.env.LOCAL_AUTH_BYPASS === "1") {
+  const useMock =
+    process.env.NEXT_PUBLIC_API_MOCK === "1" || process.env.NEXT_PUBLIC_API_BASE === "mock";
+  if (process.env.LOCAL_AUTH_BYPASS === "1" || useMock) {
     return NextResponse.next();
   }
 
