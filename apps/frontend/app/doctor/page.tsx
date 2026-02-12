@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -119,7 +121,7 @@ export default function DoctorPage() {
   const router = useRouter();
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [schedules, setSchedules] = useState<Schedule[]>([]);
-  const [weekStart, setWeekStart] = useState(() => toDateInput(getMonday(new Date())));
+  const [weekStart, setWeekStart] = useState("");
   const [statusFilter, setStatusFilter] = useState("all");
   const [isLoading, setIsLoading] = useState(true);
   const [isLoadingSchedules, setIsLoadingSchedules] = useState(false);
@@ -162,13 +164,20 @@ export default function DoctorPage() {
     load();
   }, [router]);
 
+  useEffect(() => {
+    if (!weekStart) {
+      setWeekStart(toDateInput(getMonday(new Date())));
+    }
+  }, [weekStart]);
+
   const weekStartDate = useMemo(() => {
     const parsed = parseDateInput(weekStart);
-    if (!parsed) return getMonday(new Date());
+    if (!parsed) return null;
     return getMonday(parsed);
   }, [weekStart]);
 
   const weekDates = useMemo(() => {
+    if (!weekStartDate) return [];
     return Array.from({ length: 7 }).map((_, idx) => {
       const d = new Date(weekStartDate);
       d.setDate(d.getDate() + idx);

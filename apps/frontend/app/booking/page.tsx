@@ -1,5 +1,7 @@
 "use client";
 
+export const dynamic = "force-dynamic";
+
 import { useEffect, useMemo, useState } from "react";
 import { useRouter } from "next/navigation";
 
@@ -166,7 +168,7 @@ export default function BookingPage() {
   const [notifications, setNotifications] = useState<Notification[]>([]);
   const [appointments, setAppointments] = useState<Appointment[]>([]);
   const [isLoadingAppointments, setIsLoadingAppointments] = useState(false);
-  const [calendarMonth, setCalendarMonth] = useState(() => new Date());
+  const [calendarMonth, setCalendarMonth] = useState<Date | null>(null);
   const [isLoading, setIsLoading] = useState(true);
   const [isBooking, setIsBooking] = useState(false);
 
@@ -198,6 +200,12 @@ export default function BookingPage() {
 
     load();
   }, [router]);
+
+  useEffect(() => {
+    if (!calendarMonth) {
+      setCalendarMonth(new Date());
+    }
+  }, [calendarMonth]);
 
   useEffect(() => {
     if (!selectedDoctorId) {
@@ -282,6 +290,7 @@ export default function BookingPage() {
   const availableDateSet = useMemo(() => new Set(availableDates), [availableDates]);
 
   const calendarCells = useMemo(() => {
+    if (!calendarMonth) return [];
     const year = calendarMonth.getFullYear();
     const month = calendarMonth.getMonth();
     const firstDay = new Date(year, month, 1);
@@ -367,6 +376,10 @@ export default function BookingPage() {
   };
 
   if (isLoading) {
+    return <div className="flex min-h-dvh items-center justify-center">Đang tải...</div>;
+  }
+
+  if (!calendarMonth) {
     return <div className="flex min-h-dvh items-center justify-center">Đang tải...</div>;
   }
 
