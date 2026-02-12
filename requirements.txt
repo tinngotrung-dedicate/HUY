@@ -1,5 +1,5 @@
 fastapi
-uvicorn
+uvicorn[standard]
 pydantic[email]
 python-dotenv
 sqlalchemy
@@ -9,3 +9,4 @@ pyotp
 numpy
 lightrag-hku[api]
 eel
+psycopg[binary]

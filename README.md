@@ -38,6 +38,22 @@ DEMO_USER_EMAIL
 DEMO_USER_PASSWORD
 ```
 
+### Env backend (quan trọng nếu deploy)
+```
+# Database
+DB_URL=sqlite:///./app.db
+# hoặc Postgres:
+# DB_URL=postgresql://user:pass@host:5432/dbname
+
+# JWT
+JWT_SECRET=change-me
+JWT_EXPIRE_SECONDS=3600
+JWT_REFRESH_SECONDS=604800
+
+# (tuỳ chọn) API key cho backend
+BACKEND_API_KEY=
+```
+
 ## Chạy frontend (Next.js)
 ```bash
 cd apps/frontend
@@ -51,6 +67,29 @@ Frontend chạy ở: http://localhost:3000
 ```env
 NEXT_PUBLIC_API_BASE=http://localhost:8008
 NEXT_PUBLIC_API_MOCK=1   # bật mock cho frontend
+```
+
+### Env frontend cho deploy (Vercel/production)
+```
+# NextAuth (bắt buộc)
+AUTH_SECRET=your-random-secret
+NEXTAUTH_SECRET=your-random-secret
+AUTH_URL=https://your-domain.vercel.app
+NEXTAUTH_URL=https://your-domain.vercel.app
+AUTH_TRUST_HOST=1
+
+# Nếu không có backend, bật mock full:
+NEXT_PUBLIC_API_MOCK=1
+NEXT_PUBLIC_API_BASE=mock
+
+# Nếu có backend thật:
+# NEXT_PUBLIC_API_BASE=https://your-backend-domain
+```
+
+### Skip migrations nếu không có DB
+Khi build trên môi trường không có DB (local/Vercel), có thể set:
+```
+SKIP_DB_MIGRATIONS=1
 ```
 
 ## Luồng chính
