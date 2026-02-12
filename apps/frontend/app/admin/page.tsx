@@ -190,7 +190,7 @@ export default function AdminPage() {
   const [bulkSlotType, setBulkSlotType] = useState("working");
   const [isBulkCreating, setIsBulkCreating] = useState(false);
   const [bulkWeeks, setBulkWeeks] = useState("1");
-  const [weekStart, setWeekStart] = useState(() => toDateInput(getMonday(new Date())));
+  const [weekStart, setWeekStart] = useState("");
   const [isLoadingAppointments, setIsLoadingAppointments] = useState(false);
   const [isLoadingSchedules, setIsLoadingSchedules] = useState(false);
   const [apptDoctorFilter, setApptDoctorFilter] = useState("all");
@@ -232,6 +232,12 @@ export default function AdminPage() {
 
     load();
   }, [router, showAllSlots]);
+
+  useEffect(() => {
+    if (!weekStart) {
+      setWeekStart(toDateInput(getMonday(new Date())));
+    }
+  }, [weekStart]);
 
   useEffect(() => {
     if (!selectedDoctorId) {
