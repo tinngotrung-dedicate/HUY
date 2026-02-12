@@ -8,6 +8,9 @@ export async function proxy(request: NextRequest) {
   }
 
   const { pathname } = request.nextUrl;
+  const isAuthPage =
+    pathname === "/login" || pathname === "/register" || pathname === "/login-basic";
+  const isPublicPage = pathname === "/" || isAuthPage;
 
   /*
    * Playwright starts the dev server and requires a 200 status to
@@ -27,18 +30,21 @@ export async function proxy(request: NextRequest) {
     secureCookie: !isDevelopmentEnvironment,
   });
 
+  const isGuest = token?.type === "guest" || guestRegex.test(token?.email ?? "");
+
+  if (isPublicPage) {
+    if (token && !isGuest && isAuthPage) {
+      return NextResponse.redirect(new URL("/", request.url));
+    }
+    return NextResponse.next();
+  }
+
   if (!token) {
     const redirectUrl = encodeURIComponent(request.url);
 
     return NextResponse.redirect(
       new URL(`/api/auth/guest?redirectUrl=${redirectUrl}`, request.url)
     );
-  }
-
-  const isGuest = guestRegex.test(token?.email ?? "");
-
-  if (token && !isGuest && ["/login", "/register"].includes(pathname)) {
-    return NextResponse.redirect(new URL("/", request.url));
   }
 
   return NextResponse.next();
